@@ -1,0 +1,43 @@
+title: Footer
+data:
+  hr_headline: 'Kontakt podaci'
+  en_headline: 'Contact us'
+  hr_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  en_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  contact_data:
+    -
+      id: lwuwvd0j
+      info: '01 48 18 708'
+      hr_label: Tel
+      en_label: Phone
+      type: card
+      enabled: true
+    -
+      id: lwuwvszw
+      info: '01 48 12 881'
+      hr_label: Fax
+      en_label: Fax
+      type: card
+      enabled: true
+    -
+      id: lwuww93g
+      info: '095 80 37 553'
+      hr_label: Mob
+      en_label: Mobile
+      type: card
+      enabled: true
+    -
+      id: lwuwwpyl
+      info: 'Trg Petra Svačića 6, 10000 Zagreb'
+      hr_label: Adresa
+      en_label: Address
+      type: card
+      enabled: true
+    -
+      id: lwuwx2zh
+      info: lawoffice.babic@marijanababic.com
+      hr_label: Email
+      en_label: Email
+      type: card
+      enabled: true
+  image: giammarco-boscaro-ewpbnxrhfti-unsplash.jpg

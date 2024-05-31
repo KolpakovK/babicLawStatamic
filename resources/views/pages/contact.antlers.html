@@ -1,0 +1,17 @@
+<div class="w-full h-[600px] lg:h-[600px] flex flex-col items-center justify-end py-12 lg:py-24 relative overflow-hidden">
+    <div class="absolute left-0 top-0 w-full h-full -z-20 brightness-[0.3] pointer-events-none">
+        <img src="{{ hero_image.url }}" alt="{{ hero_image.alt }}" class="w-full h-full object-cover">
+    </div>
+    <div class="container grid grid-cols-4 lg:grid-cols-8 gap-4 lg:gap-6">
+        <div class="flex flex-col gap-8 col-span-4">
+
+            <div class="flex flex-col gap-4">
+                <h1 class=" font-display text-5xl lg:text-8xl text-white font-light">{{ hero_headline }}</h1>
+                <div class="text-white/80 font-body text-xl flex flex-col gap-2 pr-12 lg:pr-64">
+                    {{ hero_description }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

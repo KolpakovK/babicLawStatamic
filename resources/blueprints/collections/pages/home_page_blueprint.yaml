@@ -1,0 +1,499 @@
+title: 'Home page blueprint'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+      -
+        display: 'Hero section'
+        instructions: "The primary visual and textual introduction to the page. Typically includes a large background image/video, a headline, and a brief description to capture immediate attention and convey the page's core message."
+        fields:
+          -
+            handle: hero_image
+            field:
+              max_files: 1
+              min_files: 1
+              container: assets
+              type: assets
+              display: Image
+          -
+            handle: hero_headline
+            field:
+              type: text
+              display: Headline
+          -
+            handle: hero_description
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - anchor
+              remove_empty_nodes: false
+              type: bard
+              display: Description
+          -
+            handle: hero_actions
+            field:
+              type: replicator
+              display: Actions
+              sets:
+                set_group:
+                  display: 'Set Group'
+                  sets:
+                    button:
+                      display: Button
+                      fields:
+                        -
+                          handle: btn_type
+                          field:
+                            options:
+                              btn-primary: 'Blue solid button'
+                              btn-primary-outline: 'Blue outline button'
+                              btn-light-outline: 'White outline button'
+                              btn-light: 'White button'
+                            type: select
+                            display: Type
+                            default: btn-primary
+                        -
+                          handle: text
+                          field:
+                            type: text
+                            display: Text
+                            width: 66
+                        -
+                          handle: icon
+                          field:
+                            type: text
+                            display: Icon
+                            instructions: 'Please, choose an icon from the library - https://remixicon.com/ and use it`s name here'
+                            width: 33
+                        -
+                          handle: link
+                          field:
+                            type: link
+                            display: Link
+      -
+        display: 'Features Block'
+        instructions: 'Highlights the key features, benefits, or selling points of a product, service, or company. Often uses icons, images, and concise text to showcase these aspects in an easily digestible format.'
+        fields:
+          -
+            handle: feature_tag
+            field:
+              type: text
+              display: Tag
+              width: 50
+          -
+            handle: feature_headline
+            field:
+              type: text
+              display: Headline
+          -
+            handle: feature_actions
+            field:
+              type: replicator
+              display: Actions
+              sets:
+                set_group:
+                  display: 'Set Group'
+                  sets:
+                    button:
+                      display: Button
+                      fields:
+                        -
+                          handle: btn_type
+                          field:
+                            options:
+                              btn-primary: 'Blue solid button'
+                              btn-primary-outline: 'Blue outline button'
+                              btn-light-outline: 'White outline button'
+                              btn-light: 'White button'
+                            type: select
+                            display: Type
+                            default: btn-primary
+                        -
+                          handle: text
+                          field:
+                            type: text
+                            display: Text
+                            width: 66
+                        -
+                          handle: icon
+                          field:
+                            type: text
+                            display: Icon
+                            instructions: 'Please, choose an icon from the library - https://remixicon.com/ and use it`s name here'
+                            width: 33
+                        -
+                          handle: link
+                          field:
+                            type: link
+                            display: Link
+          -
+            handle: feature_cards
+            field:
+              type: replicator
+              display: Cards
+              sets:
+                set_group:
+                  display: 'Set Group'
+                  sets:
+                    card:
+                      display: Card
+                      fields:
+                        -
+                          handle: icon
+                          field:
+                            type: text
+                            display: Icon
+                        -
+                          handle: headline
+                          field:
+                            type: text
+                            display: Headline
+                        -
+                          handle: description
+                          field:
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - anchor
+                            remove_empty_nodes: false
+                            type: bard
+                            display: Description
+                        -
+                          handle: add_button
+                          field:
+                            type: toggle
+                            display: 'Add button'
+                        -
+                          handle: button_text
+                          field:
+                            type: text
+                            display: 'Button text'
+                            if:
+                              add_button: 'equals true'
+                        -
+                          handle: button_link
+                          field:
+                            type: link
+                            display: 'Button link'
+                            if:
+                              add_button: 'equals true'
+      -
+        display: 'About Us Block'
+        instructions: "Presents a company or individual's background, mission, values, and story. May include team member profiles, company history, or a summary of expertise."
+        fields:
+          -
+            handle: about_us_tag
+            field:
+              type: text
+              display: Tag
+              width: 50
+          -
+            handle: about_us_headline
+            field:
+              type: text
+              display: Headline
+          -
+            handle: about_us_description
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - anchor
+              remove_empty_nodes: false
+              type: bard
+              display: Description
+          -
+            handle: about_us_quote
+            field:
+              type: group
+              display: Quote
+              fields:
+                -
+                  handle: text
+                  field:
+                    type: text
+                    display: Text
+                -
+                  handle: author
+                  field:
+                    type: text
+                    display: Author
+          -
+            handle: about_us_image
+            field:
+              max_files: 1
+              min_files: 1
+              container: assets
+              type: assets
+              display: Image
+      -
+        display: 'Services Block'
+        instructions: 'Details the range of services offered, often in a structured format with clear headings and concise descriptions. May include icons, images, or pricing information.'
+        fields:
+          -
+            handle: services_tag
+            field:
+              type: text
+              display: Tag
+              width: 50
+          -
+            handle: services_headline
+            field:
+              type: text
+              display: Headline
+          -
+            handle: services_description
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - anchor
+              remove_empty_nodes: false
+              type: bard
+              display: Description
+          -
+            handle: services_cards
+            field:
+              type: replicator
+              display: Cards
+              sets:
+                set_group:
+                  display: 'Set Group'
+                  sets:
+                    card:
+                      display: Card
+                      icon: layout-carousel-horizontal
+                      fields:
+                        -
+                          handle: icon
+                          field:
+                            type: text
+                            display: Icon
+                        -
+                          handle: headline
+                          field:
+                            type: text
+                            display: Headline
+                        -
+                          handle: description
+                          field:
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - anchor
+                            remove_empty_nodes: false
+                            type: bard
+                            display: Description
+      -
+        fields:
+          -
+            handle: full_width_image
+            field:
+              max_files: 1
+              min_files: 1
+              container: assets
+              type: assets
+              display: 'Full width image'
+      -
+        display: 'Client Testimonials Block'
+        instructions: 'Showcases positive feedback from clients or customers through quotes, reviews, or case studies. Builds credibility and trust.'
+        fields:
+          -
+            handle: testimonials_tag
+            field:
+              type: text
+              display: Tag
+              width: 50
+          -
+            handle: testimonials_headline
+            field:
+              type: text
+              display: Headline
+          -
+            handle: testimonials_description
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - anchor
+              remove_empty_nodes: false
+              type: bard
+              display: Description
+          -
+            handle: testimonials_testimonials
+            field:
+              type: replicator
+              display: Testimonials
+              sets:
+                set_group:
+                  display: 'Set Group'
+                  sets:
+                    card:
+                      display: Card
+                      fields:
+                        -
+                          handle: author
+                          field:
+                            type: text
+                            display: Author
+                        -
+                          handle: position
+                          field:
+                            type: text
+                            display: Position
+                            width: 50
+                        -
+                          handle: image
+                          field:
+                            max_files: 1
+                            min_files: 1
+                            container: assets
+                            type: assets
+                            display: Image
+                        -
+                          handle: feedback
+                          field:
+                            type: textarea
+                            display: Feedback
+      -
+        display: 'Blog Block'
+        instructions: 'Displays recent or featured blog posts. Often includes article titles, images, and summaries to entice readers to explore further content.'
+        fields:
+          -
+            handle: blog_tag
+            field:
+              type: text
+              display: Tag
+              width: 50
+          -
+            handle: blog_headline
+            field:
+              type: text
+              display: Headline
+          -
+            handle: blog_description
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - anchor
+              remove_empty_nodes: false
+              type: bard
+              display: Description
+          -
+            handle: blog_actions
+            field:
+              type: replicator
+              display: Actions
+              sets:
+                set_group:
+                  display: 'Set Group'
+                  sets:
+                    button:
+                      display: Button
+                      fields:
+                        -
+                          handle: btn_type
+                          field:
+                            options:
+                              btn-primary: 'Blue solid button'
+                              btn-primary-outline: 'Blue outline button'
+                              btn-light-outline: 'White outline button'
+                              btn-light: 'White button'
+                            type: select
+                            display: Type
+                            default: btn-primary-outline
+                        -
+                          handle: text
+                          field:
+                            type: text
+                            display: Text
+                            width: 66
+                        -
+                          handle: icon
+                          field:
+                            type: text
+                            display: Icon
+                            instructions: 'Please, choose an icon from the library - https://remixicon.com/ and use it`s name here'
+                            width: 33
+                        -
+                          handle: link
+                          field:
+                            type: link
+                            display: Link
+          -
+            handle: blog_collection
+            field:
+              type: collections
+              display: 'Blog collection'
+              max_items: 1
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: template
+            field:
+              type: template
+              display: Template

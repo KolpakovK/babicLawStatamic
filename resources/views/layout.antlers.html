@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ title ?? site:name }}</title>
+        {{ vite src="resources/css/site.css|node_modules/@glidejs/glide/dist/glide.min.js|node_modules/@glidejs/glide/dist/css/glide.core.min.css|resources/js/site.js" }}
+    </head>
+    <body class="bg-white ">
+        <div id="app" class="flex flex-col">
+            <navigation :content='{
+                logoWhite:"{{ global:logo_white.url }}",
+                logoColored:"{{ global:logo_colored.url }}",
+                hrNav:[ {{ nav:hr_navigation }}  { name:"{{title}}", url:"{{url}}", isCurrent:{{ if is_current || is_parent }} true {{else}} false {{ /if }} }, {{ /nav:hr_navigation }} ],
+                enNav:[ {{ nav:en_navigation }}  { name:"{{title}}", url:"{{url}}", isCurrent:{{ if is_current || is_parent }} true {{else}} false {{ /if }} }, {{ /nav:en_navigation }} ],
+            }'></navigation>
+
+            {{ template_content }}
+
+            {{ partial src="footer" }}
+        </div>
+    </body>
+</html>

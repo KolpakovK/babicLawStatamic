@@ -1,0 +1,242 @@
+<div class="w-full h-[600px] lg:h-[900px] flex flex-col items-center justify-end py-12 lg:py-24 relative overflow-hidden">
+    <div class="absolute left-0 top-0 w-full h-full -z-20 brightness-[0.3] pointer-events-none">
+        <img src="{{ hero_image.url }}" alt="{{ hero_image.alt }}" class="w-full h-full object-cover">
+    </div>
+    <div class="container grid grid-cols-4 lg:grid-cols-8 gap-4 lg:gap-6">
+        <div class="flex flex-col gap-8 col-span-4">
+
+            <div class="flex flex-col gap-4">
+                <h1 class=" font-display text-5xl lg:text-8xl text-white font-light">{{ hero_headline }}</h1>
+                <div class="text-white/80 font-body text-xl flex flex-col gap-2 pr-12 lg:pr-64">
+                    {{ hero_description }}
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-4 lg:gap-6">
+                {{ hero_actions }}
+                    <button-vue type="{{ btn_type }}" text="{{ text | sanitize }}" icon="{{ icon }}" link="{{ link }}"></button-vue>
+                {{ /hero_actions }}
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- features -->
+<div class="flex flex-col items-center justify-center gap-24 py-20 lg:py-40 bg-blue-50">
+    <div class="container flex flex-col gap-8">
+        <div class="flex flex-col gap-4">
+            <p class="text-xl text-black/80 font-body">{{ feature_tag }}</p>
+            <p class="text-3xl lg:text-5xl text-black font-display">{{ feature_headline }}</p>
+        </div>
+
+        {{ if feature_actions }}
+
+        <div class="flex items-center gap-4 lg:gap-6">
+            {{ feature_actions }}
+                <button-vue type="{{ btn_type }}" text="{{ text | sanitize }}" icon="{{ icon }}" link="{{ link }}"></button-vue>
+            {{ /feature_actions }}
+        </div>
+
+        {{ /if }}
+    </div>
+
+    <div class="container grid grid-cols-4 lg:grid-cols-8 gap-4 lg:gap-6">
+        {{ feature_cards }}
+
+            <div class="col-span-4 p-4 lg:px-6 lg:py-8 flex flex-col justify-between h-[300px] relative bg-white overflow-hidden">
+                {{ svg src="LogoBlueSaddle" class=" absolute top-1/2 -translate-y-1/2 -right-16" }}
+
+                <div class="flex items-center justify-center h-12 w-12 bg-blue-600 text-white text-3xl">
+                    <i class="{{ icon }}"></i>
+                </div>
+
+                <div class="flex flex-col lg:flex-row gap-2 lg:items-end z-10">
+                    <div class="flex flex-col gap-4 flex-1">
+                        <p class=" font-display text-3xl text-black">{{ headline }}</p>
+                        <div class=" font-body text-xl text-black/80">
+                            {{ description }}
+                        </div>
+                    </div>
+
+                    {{ if add_button }}
+                        <button-vue type="btn-primary w-fit" text="{{ button_text | sanitize }}" icon="ri-arrow-right-line" link="{{ button_link }}"></button-vue>
+                    {{ /if }}
+                </div>
+            </div>
+
+        {{ /feature_cards }}
+    </div>
+</div>
+
+
+
+<!-- about us -->
+<div class="flex justify-center py-20 lg:py-40 overflow-hidden">
+    <div class="container grid grid-cols-4 lg:grid-cols-8 gap-12 lg:gap-6 items-center overflow-visible">
+        <div class="col-span-4 relative min-h-[250px] lg:min-h-[500px] overflow-visible">
+            <img src="{{ about_us_image.url }}" alt="{{ about_us_image.alt }}" class="absolute top-0 right-0 object-cover h-full w-full">
+        </div>
+
+        <div class="col-span-4 lg:col-span-3 lg:col-start-6 flex flex-col gap-8 lg:gap-16">
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-2">
+                    <p class="font-body text-base text-blue-600">{{ about_us_tag }}</p>
+                    <p class="font-display text-3xl lg:text-5xl text-black">{{ about_us_headline }}</p>
+                </div>
+
+                <div class="font-body text-xl text-black/80 flex flex-col gap-2">
+                    {{ about_us_description }}
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-1 relative">
+                {{ about_us_quote }}
+                    <p class="font-body text-3xl italic font-light text-blue-600">{{ text }}</p>
+                    <p class="font-body text-base text-black/80">{{ author }}</p>
+                {{ /about_us_quote }}
+
+                {{ svg src="Quote" class="absolute top-1/2 right-0 -translate-y-1/2 -z-10" }}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Services -->
+<div class="flex justify-center items-center flex-col gap-16 pb-20 lg:pb-40">
+    <div class="container grid grid-cols-4 lg:grid-cols-8 gap-4 lg:gap-6">
+        <div class="flex flex-col gap-4 col-span-4">
+            <div class="flex flex-col gap-2">
+                <p class="font-body text-base text-blue-600">{{ services_tag }}</p>
+                <p class="font-display text-3xl lg:text-5xl text-black">{{ services_headline }}</p>
+            </div>
+
+            <div class="font-body text-xl text-black/80 flex flex-col gap-2">
+                {{ services_description }}
+            </div>
+        </div>
+    </div>
+
+    <div class="container grid grid-cols-4 gap-x-4 gap-y-6 lg:gap-y-12 lg:gap-x-6 ">
+        {{ services_cards }}
+            <div class="flex flex-col gap-6 col-span-4 lg:col-span-1">
+                <div class="h-16 w-16 flex items-center justify-center bg-blue-50 text-blue-600 text-3xl">
+                    <i class="{{ icon }}"></i>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <p class=" font-display text-2xl lg:text-3xl text-black">{{ headline }}</p>
+                    <div class=" font-body text-base lg:text-xl text-black/80">
+                        {{ description }}
+                    </div>
+                </div>
+            </div>
+        {{ /services_cards }}
+    </div>
+</div>
+
+
+<div class="relative w-full h-[400px] lg:h-[600px]">
+    <img src="{{ full_width_image.url }}" alt="{{ full_width_image.alt }}" class="absolute top-0 left-0 w-full h-full object-cover">
+</div>
+
+
+
+<div class="flex justify-center py-20 lg:py-40 bg-blue-50 overflow-hidden">
+    <div class="container grid grid-cols-4 lg:grid-cols-8 gap-12 lg:gap-6 items-center">
+        <div class="flex flex-col gap-4 col-span-4 lg:col-span-3">
+            <div class="flex flex-col gap-2">
+                <p class="font-body text-base text-blue-600">{{ testimonials_tag }}</p>
+                <p class="font-display text-3xl lg:text-5xl text-black">{{ testimonials_headline }}</p>
+            </div>
+
+            <div class="font-body text-xl text-black/80 flex flex-col gap-2">
+                {{ testimonials_description }}
+            </div>
+        </div>
+
+        <div class="col-span-4 lg:col-start-5">
+
+            <div class="glide relative">
+
+                {{ svg src="Quote2" class="absolute w-32 h-32 -right-8 -bottom-8 z-10" }}
+
+                <div class="glide__track z-20" data-glide-el="track">
+                    <ul class="glide__slides">
+                        {{ testimonials_testimonials }}
+                            <li class="glide__slide flex flex-col gap-6">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-20 h-20 rounded-full overflow-hidden">
+                                        <img class="w-full h-full object-cover" src="{{ image.url }}" alt="{{ image.alt }}">
+                                    </div>
+                                    <div class="flex flex-col gap-0">
+                                        <p class="font-display text-xl text-black">{{ author }}</p>
+                                        <p class="font-body text-base text-black/70">{{ position }}</p>
+                                    </div>
+                                </div>
+
+                                <div class="text-xl font-display text-black italic flex flex-col gap-2 font-thin">
+                                    {{ feedback }}
+                                </div>
+                            </li>
+                        {{ /testimonials_testimonials }}
+                    </ul>
+                </div>
+
+                <div class="glide__arrows flex gap-2 absolute top-0 right-0 z-20" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left btn btn-primary-outline btn-icon" data-glide-dir="<"><i class="ri-arrow-left-line"></i></button>
+                    <button class="glide__arrow glide__arrow--right btn btn-primary btn-icon" data-glide-dir=">"><i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="flex flex-col gap-16 items-center justify-center py-20 lg:py-40">
+    <div class="container grid grid-cols-4 lg:grid-cols-8 gap-4 lg:gap-6">
+        <div class="flex flex-col gap-4 col-span-4">
+            <div class="flex flex-col gap-2">
+                <p class="font-body text-base text-blue-600">{{ blog_tag }}</p>
+                <p class="font-display text-3xl lg:text-5xl text-black">{{ blog_headline }}</p>
+            </div>
+
+            <div class="font-body text-xl text-black/80 flex flex-col gap-2">
+                {{ blog_description }}
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="container grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
+        {{ collection from="{blog_collection}" paginate="3" as="posts"}}
+
+        {{ posts }}
+            <div class="p-4 lg:px-6 lg:py-8 flex flex-col justify-between h-[300px] relative bg-white overflow-hidden border border-blue-500">
+                {{ svg src="LogoBlueSaddle" class=" absolute top-1/2 -translate-y-1/2 -right-16" }}
+
+                <a href="{{url}}" class="absolute top-0 left-0 w-full h-full z-20"></a>
+
+                <p class="font-body text-base text-blue-600 z-10">{{ date }}</p>
+
+                <div class="flex flex-col gap-6 z-10">
+                    <div class="flex flex-col gap-4 flex-1">
+                        <p class=" font-display text-3xl text-black">{{ title }}</p>
+                        <div class=" font-body text-xl text-black/80">
+                            {{ content | safe_truncate(125, '...') }}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        {{ /posts }}
+            
+        {{ /collection }}
+    </div>
+</div>
+

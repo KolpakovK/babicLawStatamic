@@ -1,0 +1,67 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: hr_headline
+            field:
+              type: text
+              display: 'HR headline'
+              width: 50
+          -
+            handle: en_headline
+            field:
+              type: text
+              display: 'EN headline'
+              width: 50
+          -
+            handle: hr_description
+            field:
+              type: textarea
+              display: 'HR description'
+              width: 50
+          -
+            handle: en_description
+            field:
+              type: textarea
+              display: 'EN description'
+              width: 50
+          -
+            handle: contact_data
+            field:
+              type: replicator
+              display: 'Contact data'
+              sets:
+                set_group:
+                  display: 'Set Group'
+                  sets:
+                    card:
+                      display: Card
+                      fields:
+                        -
+                          handle: info
+                          field:
+                            type: text
+                            display: Info
+                        -
+                          handle: hr_label
+                          field:
+                            type: text
+                            display: 'HR label'
+                            width: 50
+                        -
+                          handle: en_label
+                          field:
+                            type: text
+                            display: 'EN label'
+                            width: 50
+          -
+            handle: image
+            field:
+              max_files: 1
+              min_files: 1
+              container: assets
+              type: assets
+              display: Image

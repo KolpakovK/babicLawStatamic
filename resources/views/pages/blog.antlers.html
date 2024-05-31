@@ -1,0 +1,58 @@
+<div class="w-full h-[600px] lg:h-[600px] flex flex-col items-center justify-end py-12 lg:py-24 relative overflow-hidden">
+    <div class="absolute left-0 top-0 w-full h-full -z-20 brightness-[0.3] pointer-events-none">
+        <img src="{{ hero_image.url }}" alt="{{ hero_image.alt }}" class="w-full h-full object-cover">
+    </div>
+    <div class="container grid grid-cols-4 lg:grid-cols-8 gap-4 lg:gap-6">
+        <div class="flex flex-col gap-8 col-span-4">
+
+            <div class="flex flex-col gap-4">
+                <h1 class=" font-display text-5xl lg:text-8xl text-white font-light">{{ hero_headline }}</h1>
+                <div class="text-white/80 font-body text-xl flex flex-col gap-2 pr-12 lg:pr-64">
+                    {{ hero_description }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="flex flex-col gap-16 items-center justify-center py-20 lg:py-40">
+
+    <div class="container flex flex-col gap-8">
+        {{ collection from="{blog_collection}" paginate="20" as="posts"}}
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
+            {{ posts }}
+                <div class="p-4 lg:px-6 lg:py-8 flex flex-col justify-between h-[300px] relative bg-white overflow-hidden border border-blue-500">
+                    {{ svg src="LogoBlueSaddle" class=" absolute top-1/2 -translate-y-1/2 -right-16" }}
+
+                    <a href="{{url}}" class="absolute top-0 left-0 w-full h-full z-20"></a>
+
+                    <p class="font-body text-base text-blue-600 z-10">{{ date }}</p>
+
+                    <div class="flex flex-col gap-6 z-10">
+                        <div class="flex flex-col gap-4 flex-1">
+                            <p class=" font-display text-3xl text-black">{{ title }}</p>
+                            <div class=" font-body text-xl text-black/80">
+                                {{ content | safe_truncate(125, '...') }}
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            {{ /posts }}
+        </div>
+
+        <div class="flex justify-center gap-4 items-center font-body text-black/80">
+            {{ paginate }}
+                <a class="btn btn-icon btn-primary-outline" href="{{ prev_page }}"><i class="ri-arrow-left-line"></i></a>
+                {{ current_page }} of {{ total_pages }} pages
+                (There are {{ total_items }} posts)
+                <a class="btn btn-icon btn-primary" href="{{ next_page }}"><i class="ri-arrow-right-line"></i></a>
+            {{ /paginate }}
+        </div>
+            
+        {{ /collection }}
+    </div>
+</div>

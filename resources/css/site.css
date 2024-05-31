@@ -1,0 +1,100 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css");
+
+/* This is all you. */
+@layer base{
+
+    @font-face {
+        font-family: "Afacad";
+        src: url("./fonts/Afacad-VariableFont_wght.woff2") format("woff2-variations");
+        font-weight: 50 950;
+        font-stretch: 75% 125%;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Afacad";
+        src: url("./fonts/Afacad-Italic-VariableFont_wght.woff2") format("woff2-variations");
+        font-weight: 50 950;
+        font-stretch: 75% 125%;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: "Geologica";
+        src: url("./fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.woff2") format("woff2-variations");
+        font-weight: 50 950;
+        font-stretch: 75% 125%;
+        font-style: oblique 0deg 20deg;
+    }
+
+}
+
+
+@layer components{
+
+    .btn{
+        @apply px-6 h-10 flex items-center gap-2 justify-center duration-200 font-body leading-none
+    }
+
+    .btn-icon{
+        @apply px-0 w-10;
+    }
+
+    .btn-primary{
+        @apply bg-blue-600 text-white
+        hover:bg-blue-700
+    }
+
+    .btn-primary-outline{
+        @apply border border-blue-600 text-blue-600
+        hover:bg-blue-600 hover:text-white
+    }
+
+    .btn-light{
+        @apply bg-white text-blue-600
+        hover:bg-blue-700 hover:text-white
+    }
+
+    .btn-light-outline{
+        @apply border border-white text-white
+        hover:bg-blue-700 hover:text-white
+    }
+
+
+    .bard h1{
+        @apply text-4xl w-full text-black !font-display;
+    }
+
+    .bard h2{
+        @apply text-3xl w-full text-black !font-display;
+    }
+
+    .bard h3{
+        @apply text-2xl w-full text-black !font-display;
+    }
+
+    .bard p{
+        @apply w-full text-xl text-black/80 font-body;
+    }
+
+    .bard ul{
+        @apply w-full text-xl text-black/80 font-body;
+    }
+
+    .bard ul li{
+        @apply list-disc italic;
+    }
+
+    .bard ol{
+        @apply w-full text-xl text-black/80 font-body;
+    }
+
+    .bard ol li{
+        @apply list-decimal italic;
+    }
+
+}

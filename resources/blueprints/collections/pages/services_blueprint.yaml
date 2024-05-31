@@ -1,0 +1,105 @@
+title: 'Services blueprint'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+      -
+        display: Hero
+        fields:
+          -
+            handle: hero_headline
+            field:
+              type: text
+              display: Headline
+          -
+            handle: hero_description
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - anchor
+              remove_empty_nodes: false
+              type: bard
+              display: Description
+          -
+            handle: hero_image
+            field:
+              max_files: 1
+              min_files: 1
+              container: assets
+              type: assets
+              display: Image
+      -
+        display: Services
+        fields:
+          -
+            handle: services
+            field:
+              type: replicator
+              display: Services
+              sets:
+                set_group:
+                  display: 'Set Group'
+                  sets:
+                    item:
+                      display: Item
+                      fields:
+                        -
+                          handle: headline
+                          field:
+                            type: text
+                            display: Headline
+                        -
+                          handle: description
+                          field:
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - anchor
+                            remove_empty_nodes: false
+                            type: bard
+                            display: Description
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
