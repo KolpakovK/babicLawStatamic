@@ -1,4 +1,6 @@
 // This is all you.
+import "/node_modules/@glidejs/glide/dist/glide.min.js";
+
 import { createApp } from "vue";
 
 import ButtonVue from "./components/ButtonVue.vue";

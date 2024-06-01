@@ -7,8 +7,6 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/css/site.css',
-                'node_modules/@glidejs/glide/dist/css/glide.core.min.css',
-                'node_modules/@glidejs/glide/dist/glide.min.js',
                 'resources/js/site.js',
 
                 // Control Panel assets.
