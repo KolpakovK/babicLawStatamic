@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
-        {{ vite src="resources/css/site.css|node_modules/@glidejs/glide/dist/glide.min.js|node_modules/@glidejs/glide/dist/css/glide.core.min.css|resources/js/site.js" }}
+        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+        {{ vite src="resources/css/site.css|resources/js/site.js" }}
     </head>
     <body class="bg-white ">
         <div id="app" class="flex flex-col">
@@ -21,4 +22,5 @@
             {{ partial src="footer" }}
         </div>
     </body>
+    
 </html>
