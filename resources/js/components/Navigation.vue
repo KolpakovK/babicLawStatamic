@@ -61,6 +61,8 @@ export default{
         this.logoColored = this.content.logoColored;
 
         this.localization = this.getCookie("localization");
+        if (!this.localization) this.localization =  "hr";
+        
         this.nav = this.localization=="hr" ? this.content.hrNav : this.content.enNav;
 
         this.isScrolled = window.scrollY > 0; // Закреплять, если прокрутка больше 0

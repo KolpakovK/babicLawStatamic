@@ -61,8 +61,9 @@ export default{
         }
     },
     mounted(){
-        this.localization = this.getCookie("localization");
-    },
+        let localization = this.getCookie("localization");
+        this.localization = localization ? localization : "hr";
+    }, 
     methods:{
         getCookie(name) {
             const value = `; ${document.cookie}`;
