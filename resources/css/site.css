@@ -9,7 +9,7 @@
 
     @font-face {
         font-family: "Afacad";
-        src: url("./fonts/Afacad-VariableFont_wght.woff2") format("woff2-variations");
+        src: url("/resources/css/fonts/Afacad-VariableFont_wght.woff2") format("woff2-variations");
         font-weight: 50 950;
         font-stretch: 75% 125%;
         font-style: normal;
@@ -17,7 +17,7 @@
 
     @font-face {
         font-family: "Afacad";
-        src: url("./fonts/Afacad-Italic-VariableFont_wght.woff2") format("woff2-variations");
+        src: url("/resources/css/fonts/Afacad-Italic-VariableFont_wght.woff2") format("woff2-variations");
         font-weight: 50 950;
         font-stretch: 75% 125%;
         font-style: italic;
@@ -25,7 +25,7 @@
 
     @font-face {
         font-family: "Geologica";
-        src: url("./fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.woff2") format("woff2-variations");
+        src: url("/resources/css/fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.woff2") format("woff2-variations");
         font-weight: 50 950;
         font-stretch: 75% 125%;
         font-style: oblique 0deg 20deg;
