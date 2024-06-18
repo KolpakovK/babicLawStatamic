@@ -5,7 +5,7 @@ title: 'Home page'
 author: c6c54749-2055-49a6-898f-4d67a70cc8b2
 template: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1717191018
+updated_at: 1717962058
 hero_image: trgbanazagreb.jpg
 hero_headline: 'Your Trusted Legal Partner'
 hero_description:
@@ -206,7 +206,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            text: 'Advising clients on their rights in marriage and divorce, representing them in court, and drafting necessary legal documents.'
     type: card
     enabled: true
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg

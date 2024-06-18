@@ -39,7 +39,7 @@ about_us_quote:
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg
 template_field: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1717189801
+updated_at: 1717961780
 feature_tag: 'O nama'
 feature_headline: 'Naš odvjetnički ured specijaliziran je za pružanje pravnih savjeta u području trgovačkog prava.'
 feature_actions:
@@ -121,7 +121,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Statusne promjene, preuzimanja/spajanja, identifikacija i kontrola rizika, dubinske pravne analize, ulaganja, likvidacije, zastupanja društava, ugovorno pravo, regulatorna pitanja, naplata'
+            text: 'Statusne promjene, preuzimanja/spajanja, identifikacija i kontrola rizika, dubinske pravne analize, ulaganja, likvidacije, zastupanja društava, ugovorno pravo, regulatorna pitanja, naplata.'
     type: card
     enabled: true
   -
@@ -134,7 +134,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Savjetovanje o financijskim proizvodima , financiranje imovine, projektno, financiranje, osiguranja, factoring'
+            text: 'Savjetovanje o financijskim proizvodima , financiranje imovine, projektno, financiranje, osiguranja, factoring.'
     type: card
     enabled: true
   -
@@ -160,7 +160,7 @@ services_cards:
         content:
           -
             type: text
-            text: "Zastupanje vjerovnika/dužnika,\_pravna suradnja sa društvom u stečaju,\_preustroj stečajnog dužnika"
+            text: "Zastupanje vjerovnika/dužnika,\_pravna suradnja sa društvom u stečaju,\_restrukturiranje stečajnog dužnika."
     type: card
     enabled: true
   -
@@ -173,7 +173,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Radni sporovi, planovi restrukturiranja i zbrinjavanja viška troškova, ugovori o radu i managerski, ugovori, izrada pravilnika o radu i statusne dokumentacije društva, ishođenje radnih dozvola'
+            text: 'Radni sporovi, planovi restrukturiranja i zbrinjavanja viška troškova, ugovori o radu i managerski, ugovori, izrada pravilnika o radu i statusne dokumentacije društva, ishođenje radnih dozvola.'
     type: card
     enabled: true
   -
@@ -186,7 +186,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Projekti obnovljivih izvora energije (mali i srednji)'
+            text: 'Projekti obnovljivih izvora energije (mali i srednji).'
     type: card
     enabled: true
   -
@@ -199,7 +199,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Zk pitanja nekretnina, stjecanje i prodaje nekretnina, zakup /najam'
+            text: 'Zk pitanja nekretnina, stjecanje i prodaje nekretnina, zakup /najam.'
     type: card
     enabled: true
   -
@@ -212,7 +212,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            text: 'Savjetovanje klijenata o njihovim pravima u braku i razvodu, zastupanje pred sudom i sastavljanje potrebnih pravnih dokumenata.'
     type: card
     enabled: true
 testimonials_tag: 'Što naši klijenti kažu o nama'
