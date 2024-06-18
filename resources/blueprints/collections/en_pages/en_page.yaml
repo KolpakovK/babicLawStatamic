@@ -85,6 +85,20 @@ tabs:
                           field:
                             type: link
                             display: Link
+          -
+            handle: logos_row
+            field:
+              type: grid
+              display: 'Logos row'
+              fields:
+                -
+                  handle: logo
+                  field:
+                    max_files: 1
+                    min_files: 1
+                    container: assets
+                    type: assets
+                    display: Logo
       -
         display: 'Features Block'
         instructions: 'Highlights the key features, benefits, or selling points of a product, service, or company. Often uses icons, images, and concise text to showcase these aspects in an easily digestible format.'

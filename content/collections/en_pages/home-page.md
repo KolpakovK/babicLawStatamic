@@ -5,7 +5,7 @@ title: 'Home page'
 author: c6c54749-2055-49a6-898f-4d67a70cc8b2
 template: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1717962058
+updated_at: 1718734091
 hero_image: trgbanazagreb.jpg
 hero_headline: 'Your Trusted Legal Partner'
 hero_description:
@@ -94,7 +94,7 @@ about_us_description:
 about_us_quote:
   text: 'Quality is not an act, it is a habit.'
   author: Aristotel
-about_us_image: person-preview.jpg
+about_us_image: 20240415_121445-(2)-(1).jpg
 services_tag: Services
 services_headline: 'Trusted Legal Services'
 services_description:
@@ -268,4 +268,35 @@ blog_actions:
     type: button
     enabled: true
 blog_collection: en_blog
+logos_row:
+  -
+    id: lxkoxy9q
+    logo: 2560px-new_yorker.svg.png
+  -
+    id: lxkoy2f2
+    logo: group-1.png
+  -
+    id: lxkoy3ut
+    logo: leluba_logo_retina-pr0m7tutd5ev57t083lvqv0evoppasldzvxn4hq7cs.png
+  -
+    id: lxkoy491
+    logo: logo-naturhouse.png
+  -
+    id: lxkoy4jp
+    logo: logo12.png
+  -
+    id: lxkoy4z9
+    logo: logo_no.png
+  -
+    id: lxkoyiq5
+    logo: mask-group-1.png
+  -
+    id: lxkoylqt
+    logo: mask-group.png
+  -
+    id: lxkoyp6u
+    logo: snipes_logo_dark.avif
+  -
+    id: lxkoysam
+    logo: subtract.png
 ---

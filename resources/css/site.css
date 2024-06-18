@@ -2,6 +2,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import '/node_modules/sal.js/dist/sal.css';
+
 @import url('/node_modules/@glidejs/glide/dist/css/glide.core.min.css');
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css");

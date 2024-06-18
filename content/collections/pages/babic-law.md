@@ -39,7 +39,7 @@ about_us_quote:
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg
 template_field: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1717961780
+updated_at: 1718734132
 feature_tag: 'O nama'
 feature_headline: 'Naš odvjetnički ured specijaliziran je za pružanje pravnih savjeta u području trgovačkog prava.'
 feature_actions:
@@ -100,7 +100,7 @@ about_us_description:
       -
         type: text
         text: 'Odvjetnički ured Babić pruža pravne usluge domaćim i stranim klijentima u području međunarodnog trgovačkog prava, zastupanja pred sudovima, u arbitražama te postupcima mirenja i medijacije. Vaš uspjeh u poslovanju je i naš uspjeh!'
-about_us_image: person-preview.jpg
+about_us_image: 20240415_121445-(2)-(1).jpg
 services_tag: Usluge
 services_headline: 'Pouzdane pravne usluge'
 services_description:
@@ -274,4 +274,35 @@ blog_actions:
     enabled: true
 template: pages/home-page
 blog_collection: hr_blog
+logos_row:
+  -
+    id: lxkoruh2
+    logo: logo12.png
+  -
+    id: lxkowjba
+    logo: mask-group.png
+  -
+    id: lxkown3i
+    logo: mask-group-1.png
+  -
+    id: lxkowpxq
+    logo: subtract.png
+  -
+    id: lxkowsxx
+    logo: logo_no.png
+  -
+    id: lxkowvy6
+    logo: logo-naturhouse.png
+  -
+    id: lxkowzst
+    logo: leluba_logo_retina-pr0m7tutd5ev57t083lvqv0evoppasldzvxn4hq7cs.png
+  -
+    id: lxkox2t2
+    logo: 2560px-new_yorker.svg.png
+  -
+    id: lxkox5ce
+    logo: snipes_logo_dark.avif
+  -
+    id: lxkoxm3y
+    logo: group-1.png
 ---

@@ -8,7 +8,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
         {{ vite src="resources/css/site.css|resources/js/site.js" }}
     </head>
-    <body class="bg-white ">
+    <body class="bg-white">
         <div id="app" class="flex flex-col">
             <navigation :content='{
                 logoWhite:"{{ global:logo_white.url }}",
@@ -17,7 +17,9 @@
                 enNav:[ {{ nav:en_navigation }}  { name:"{{title}}", url:"{{url}}", isCurrent:{{ if is_current || is_parent }} true {{else}} false {{ /if }} }, {{ /nav:en_navigation }} ],
             }'></navigation>
 
-            {{ template_content }}
+            <main>
+                {{ template_content }}
+            </main>
 
             {{ partial src="footer" }}
         </div>

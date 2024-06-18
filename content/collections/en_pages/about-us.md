@@ -10,7 +10,7 @@ hero_description:
       -
         type: text
         text: 'Marijana is a licensed Croatian Attorney-at-Law with 15 years of professional legal experience in working with leading international law firms.'
-hero_image: person-preview.jpg
+hero_image: 20240415_121445-(2)-(1).jpg
 bio_description:
   -
     type: paragraph
@@ -148,5 +148,5 @@ about:
     enabled: true
 template: pages/about-us
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1717184308
+updated_at: 1718734107
 ---

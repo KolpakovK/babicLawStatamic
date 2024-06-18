@@ -10,7 +10,7 @@ hero_description:
       -
         type: text
         text: 'Marijana je ovlaštena hrvatska odvjetnica s 15 godina profesionalnog pravnog iskustva u radu s domaćim i vodećim međunarodnim odvjetničkim društvima.'
-hero_image: person-preview.jpg
+hero_image: 20240415_121445-(2)-(1).jpg
 bio_description:
   -
     type: paragraph
@@ -103,6 +103,6 @@ about:
     enabled: true
 template: pages/about-us
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1717181323
+updated_at: 1718734141
 parent: 47d78bb4-143b-45d6-ac5f-0d8ab9802064
 ---
