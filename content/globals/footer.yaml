@@ -2,8 +2,8 @@ title: Footer
 data:
   hr_headline: 'Kontakt podaci'
   en_headline: 'Contact us'
-  hr_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-  en_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  hr_description: 'Kontaktirajte nas već danas za stručne pravne savjete i zastupanje.'
+  en_description: 'Contact us today for expert legal advice and representation.'
   contact_data:
     -
       id: lwuwvd0j
@@ -11,14 +11,14 @@ data:
       hr_label: Tel
       en_label: Phone
       type: card
-      enabled: true
+      enabled: false
     -
       id: lwuwvszw
       info: '01 48 12 881'
       hr_label: Fax
       en_label: Fax
       type: card
-      enabled: true
+      enabled: false
     -
       id: lwuww93g
       info: '095 80 37 553'

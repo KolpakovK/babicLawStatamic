@@ -46,7 +46,7 @@ about:
         content:
           -
             type: text
-            text: "5/2014 – 9/2021 \_\_\_\_\_\_\_\_ Odvjetničko društvo BENKO & PARTNERI d.o.o., Zagreb, odvjetnica"
+            text: "5/2014 – 9/2021 \_\_\_\_\_\_\_\_ Odvjetničko društvo BENKO & PARTNERI d.o.o., Zagreb, odvjetnica u suradnji"
       -
         type: paragraph
         content:
@@ -103,6 +103,6 @@ about:
     enabled: true
 template: pages/about-us
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1718734141
+updated_at: 1719678435
 parent: 47d78bb4-143b-45d6-ac5f-0d8ab9802064
 ---

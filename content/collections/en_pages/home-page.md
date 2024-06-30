@@ -5,7 +5,7 @@ title: 'Home page'
 author: c6c54749-2055-49a6-898f-4d67a70cc8b2
 template: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1718734091
+updated_at: 1719679184
 hero_image: trgbanazagreb.jpg
 hero_headline: 'Your Trusted Legal Partner'
 hero_description:
@@ -94,7 +94,7 @@ about_us_description:
 about_us_quote:
   text: 'Quality is not an act, it is a habit.'
   author: Aristotel
-about_us_image: 20240415_121445-(2)-(1).jpg
+about_us_image: 20240415_121526-(1)-(1)-1719678198.jpg
 services_tag: Services
 services_headline: 'Trusted Legal Services'
 services_description:
@@ -103,7 +103,7 @@ services_description:
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        text: 'We provide reliable and expert legal services tailored to your individual needs.'
 services_cards:
   -
     id: lwv02nvn
@@ -141,7 +141,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Implementation of a new gdpr 2016/679 (2018)'
+            text: 'Implementation of a new GDPR 2016/679 (2018)'
     type: card
     enabled: true
   -
@@ -218,46 +218,62 @@ testimonials_description:
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-      -
-        type: hardBreak
-      -
-        type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Our clients value our expert, reliable, and personalized legal services.'
 testimonials_testimonials:
   -
+    id: ly0cduq8
+    author: 'Michael Warrington'
+    position: 'Chief Executive Officer at AX Group'
+    image: 1539170104711.jpg
+    feedback: '"Marijana assisted the AX Group with a possible transaction in Croatia in 2018. Throughout the process Marijana was proactive, professional and provided us with sound legal advice and support. We would certainly engage Ms Babic again in a future venture"'
+    type: card
+    enabled: true
+  -
+    id: ly0cgn73
+    author: 'Mathew Conway'
+    position: 'Director OSL Global'
+    image: 1516902980428.jpg
+    feedback: '“Highly professional, very expedient in services provided. Absolutely appreciative of her guidance, leadership and expertise. Would recommend Marijana to anyone seeking that extra mile! Highly professional, very expedient in services provided. Absolutely appreciative of her guidance, leadership and expertise. Would recommend Marijana to anyone seeking that extra mile!”'
+    type: card
+    enabled: true
+  -
+    id: ly0cgvww
+    author: 'Damjan Krivić'
+    position: 'Partner at Gugić, Kovačić & Krivić Law firm'
+    image: oip-(1).jpg
+    feedback: '“I have been working with Marijana for six years. She often represented very creative and logical solutions to the legal problems. Her reasons supporting the ideas how to solve the problem were very convincing and always led to a solution. She assertively addresses problems by showing strong maturity in her approach to usually very demanding working situations. Strong work ethics and dedication to both, aiming for absolute success in the case she is working on and providing the client with the best and the fastest solution result in, not only finishing the work in time, but finishing it before all required deadlines.”'
+    type: card
+    enabled: true
+  -
     id: lwv03u7x
-    author: 'Josh Davidson'
-    position: 'Driver, builder'
-    image: testimonials/josh-davidsonavatar.jpg
-    feedback: 'Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa. Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa.'
+    author: Ivan
+    image: oip-(1).jpg
+    feedback: '"Their team was incredibly professional, knowledgeable, and supportive throughout my entire legal process. They were always available to answer my questions and put me at ease."'
     type: card
     enabled: true
   -
     id: lwv045yb
-    author: 'Josh Davidson'
-    position: 'Driver, builder'
-    image: testimonials/josh-davidsonavatar.jpg
-    feedback: 'Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa. Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa.'
+    author: Marija
+    image: oip-(1).jpg
+    feedback: '"They handled my complex case with expertise and efficiency, always keeping me informed and involved in the decision-making process. I am incredibly grateful for their hard work and highly recommend them to anyone seeking legal representation."'
     type: card
     enabled: true
   -
     id: lwv0451f
-    author: 'Josh Davidson'
-    position: 'Driver, builder'
-    image: testimonials/josh-davidsonavatar.jpg
-    feedback: 'Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa. Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa.'
+    author: Mateo
+    image: oip-(1).jpg
+    feedback: '"My legal issue was resolved quickly and efficiently. They were by my side every step of the way, patiently explaining all the legal details and offering the best possible solutions. Their expertise and dedication are undeniable."'
     type: card
     enabled: true
 blog_tag: Blog
-blog_headline: 'The Magazine'
+blog_headline: News
 blog_description:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        text: 'Stay up-to-date with expert legal advice and practical tips.'
 blog_actions:
   -
     id: lwv04gej
@@ -299,4 +315,7 @@ logos_row:
   -
     id: lxkoysam
     logo: subtract.png
+  -
+    id: ly0bvkpz
+    logo: ax-group-logo-horizontal-bk-200x48.png
 ---

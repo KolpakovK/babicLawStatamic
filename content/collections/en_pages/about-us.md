@@ -73,7 +73,7 @@ about:
             text: 'BENKO & PARTNERS LLC'
           -
             type: text
-            text: ', Zagreb, Attorney'
+            text: ', Zagreb, Attorney in cooperation'
       -
         type: paragraph
         content:
@@ -148,5 +148,5 @@ about:
     enabled: true
 template: pages/about-us
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1718734107
+updated_at: 1719678431
 ---

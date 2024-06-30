@@ -9,7 +9,7 @@ hero_description:
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        text: 'We offer expertise in a wide range of legal areas.'
 hero_image: sven-kucinic-zjwn14slj88-unsplash.jpg
 services:
   -
@@ -131,7 +131,7 @@ services:
             type: text
             text: 'Initiating criminal proceedings, representation of defendants in criminal proceedings for economic criminal offences'
     type: item
-    enabled: true
+    enabled: false
   -
     id: lwv3bqax
     headline: 'Misdemeanour law'
@@ -143,7 +143,7 @@ services:
             type: text
             text: 'Initiating misdemeanour proceedings, protection, representation'
     type: item
-    enabled: true
+    enabled: false
   -
     id: lwv3bw4p
     headline: 'Data Protection Law'
@@ -157,6 +157,6 @@ services:
     type: item
     enabled: true
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1717191327
+updated_at: 1719678745
 template: pages/services
 ---

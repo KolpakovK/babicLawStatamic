@@ -39,7 +39,7 @@ about_us_quote:
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg
 template_field: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1718734132
+updated_at: 1719679194
 feature_tag: 'O nama'
 feature_headline: 'Naš odvjetnički ured specijaliziran je za pružanje pravnih savjeta u području trgovačkog prava.'
 feature_actions:
@@ -100,7 +100,7 @@ about_us_description:
       -
         type: text
         text: 'Odvjetnički ured Babić pruža pravne usluge domaćim i stranim klijentima u području međunarodnog trgovačkog prava, zastupanja pred sudovima, u arbitražama te postupcima mirenja i medijacije. Vaš uspjeh u poslovanju je i naš uspjeh!'
-about_us_image: 20240415_121445-(2)-(1).jpg
+about_us_image: 20240415_121526-(1)-(1).jpg
 services_tag: Usluge
 services_headline: 'Pouzdane pravne usluge'
 services_description:
@@ -109,7 +109,7 @@ services_description:
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        text: 'Pružamo pouzdane i stručne pravne usluge prilagođene vašim individualnim potrebama.'
 services_cards:
   -
     id: lwuhw1px
@@ -147,7 +147,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Nova eu uredba o zaštiti podataka 2016/679 (2018)'
+            text: 'Nova EU uredba o zaštiti podataka 2016/679 (2018)'
     type: card
     enabled: true
   -
@@ -223,35 +223,51 @@ testimonials_description:
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-      -
-        type: hardBreak
-      -
-        type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Naši klijenti cijene naše stručne, pouzdane i personalizirane pravne usluge.'
 testimonials_testimonials:
   -
+    id: ly0cf4vb
+    author: 'Michael Warrington'
+    position: 'Chief Executive Officer at AX Group'
+    image: 1539170104711.jpg
+    feedback: '"Marijana assisted the AX Group with a possible transaction in Croatia in 2018. Throughout the process Marijana was proactive, professional and provided us with sound legal advice and support. We would certainly engage Ms Babic again in a future venture"'
+    type: card
+    enabled: true
+  -
+    id: ly0cfepr
+    author: 'Mathew Conway'
+    position: 'Director OSL Global'
+    image: 1516902980428.jpg
+    feedback: '“Highly professional, very expedient in services provided. Absolutely appreciative of her guidance, leadership and expertise. Would recommend Marijana to anyone seeking that extra mile! Highly professional, very expedient in services provided. Absolutely appreciative of her guidance, leadership and expertise. Would recommend Marijana to anyone seeking that extra mile!”'
+    type: card
+    enabled: true
+  -
+    id: ly0cjgtj
+    author: 'Damjan Krivić'
+    position: 'Partner at Gugić, Kovačić & Krivić Law firm'
+    image: oip-(1).jpg
+    feedback: '“I have been working with Marijana for six years. She often represented very creative and logical solutions to the legal problems. Her reasons supporting the ideas how to solve the problem were very convincing and always led to a solution. She assertively addresses problems by showing strong maturity in her approach to usually very demanding working situations. Strong work ethics and dedication to both, aiming for absolute success in the case she is working on and providing the client with the best and the fastest solution result in, not only finishing the work in time, but finishing it before all required deadlines.”'
+    type: card
+    enabled: true
+  -
     id: lwuhxiv0
-    author: 'Josh Davidson'
-    position: 'Driver, builder'
-    image: testimonials/josh-davidsonavatar.jpg
-    feedback: 'Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa. Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa.'
+    author: Ivan
+    image: oip-(1).jpg
+    feedback: '"Tim je bio iznimno profesionalan, stručan i podržavao me kroz cijeli pravni proces. Uvijek su bili dostupni za odgovore na moja pitanja i ulijevali su mi povjerenje."'
     type: card
     enabled: true
   -
     id: lwuhyxrh
-    author: 'Josh Davidson'
-    position: 'Driver, builder'
-    image: testimonials/josh-davidsonavatar.jpg
-    feedback: 'Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa. Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa.'
+    author: Marija
+    image: oip-(1).jpg
+    feedback: '"Od prvog kontakta osjetila sam kao da sam u sigurnim rukama. Njihova stručnost, transparentnost i predanost klijentu su zaista impresivne. Uspješno su riješili moj slučaj, čak i kada su se pojavile neočekivane prepreke. Toplo preporučujem ovaj tim svakome tko traži vrhunsku pravnu pomoć."'
     type: card
     enabled: true
   -
     id: lwuhyw7x
-    author: 'Josh Davidson'
-    position: 'Driver, builder'
-    image: testimonials/josh-davidsonavatar.jpg
-    feedback: 'Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa. Donec vestibulum velit a dolor volutpat ornare. Mauris in turpis est. Vivamus tempus lorem nec imperdiet fringilla. Etiam quis purus massa.'
+    author: Mateo
+    image: oip-(1).jpg
+    feedback: '"Moj pravni problem je riješen brzo i učinkovito. Bili su uz mene na svakom koraku, strpljivo objašnjavajući sve pravne detalje i nudeći najbolja moguća rješenja. Njihova stručnost i predanost su neosporne."'
     type: card
     enabled: true
 blog_tag: Blog
@@ -262,7 +278,7 @@ blog_description:
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        text: 'Ostanite informirani uz stručne pravne savjete i praktične savjete.'
 blog_actions:
   -
     id: lwuhzary
@@ -305,4 +321,7 @@ logos_row:
   -
     id: lxkoxm3y
     logo: group-1.png
+  -
+    id: ly0bvsl3
+    logo: ax-group-logo-horizontal-bk-200x48-1719678007.png
 ---

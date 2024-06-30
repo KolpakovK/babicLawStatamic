@@ -9,7 +9,7 @@ hero_description:
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        text: 'Nudimo stručnost u širokom području pravnih usluga.'
 hero_image: sven-kucinic-zjwn14slj88-unsplash.jpg
 services:
   -
@@ -143,7 +143,7 @@ services:
             type: text
             text: 'Iniciranje kaznenih progona/postupaka, zastupanje u kaznenim postupcima radi gospodarskih kaznenih djela'
     type: item
-    enabled: true
+    enabled: false
   -
     id: lwv2zxev
     headline: 'Prekršajno pravo'
@@ -155,9 +155,9 @@ services:
             type: text
             text: 'Iniciranje prekršajnih postupaka, zaštita, zastupanje'
     type: item
-    enabled: true
+    enabled: false
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1717960116
+updated_at: 1719678747
 parent: 47d78bb4-143b-45d6-ac5f-0d8ab9802064
 template: pages/services
 ---
