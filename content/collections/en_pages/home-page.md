@@ -5,7 +5,7 @@ title: 'Home page'
 author: c6c54749-2055-49a6-898f-4d67a70cc8b2
 template: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1719679184
+updated_at: 1719752316
 hero_image: trgbanazagreb.jpg
 hero_headline: 'Your Trusted Legal Partner'
 hero_description:
@@ -66,7 +66,7 @@ feature_cards:
         content:
           -
             type: text
-            text: 'Ilica 5/II, Zagreb'
+            text: 'Ilica 5 | II stube, Zagreb'
           -
             type: hardBreak
           -

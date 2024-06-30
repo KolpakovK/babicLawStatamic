@@ -39,7 +39,7 @@ about_us_quote:
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg
 template_field: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1719679194
+updated_at: 1719752327
 feature_tag: 'O nama'
 feature_headline: 'Naš odvjetnički ured specijaliziran je za pružanje pravnih savjeta u području trgovačkog prava.'
 feature_actions:
@@ -75,7 +75,7 @@ feature_cards:
         content:
           -
             type: text
-            text: 'Ilica 5/II, Zagreb'
+            text: 'Ilica 5 | II stube, Zagreb'
           -
             type: hardBreak
           -

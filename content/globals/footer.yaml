@@ -28,7 +28,7 @@ data:
       enabled: true
     -
       id: lwuwwpyl
-      info: 'Trg Petra Svačića 6, 10000 Zagreb'
+      info: 'Ilica 5 | II stube, 10000 Zagreb'
       hr_label: Adresa
       en_label: Address
       type: card
