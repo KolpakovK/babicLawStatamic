@@ -14,14 +14,14 @@ hero_image: sven-kucinic-zjwn14slj88-unsplash.jpg
 services:
   -
     id: lwv2wfuj
-    headline: 'Pravo društva'
+    headline: 'Pravo društava'
     description:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Statusne promjene, preuzimanja/spajanja, identifikacija i kontrola rizika, dubinske pravne analize, ulaganja, likvidacije, zastupanja društava, ugovorno pravo, regulatorna pitanja, naplata'
+            text: 'Statusne promjene, preuzimanja i spajanja društava, due dilligence, ulaganja u društva i kupoprodaja dionica, likvidacija, zastupanje društva, ugovorno pravo, regulatorna pitanja, naplata potraživanja.'
     type: item
     enabled: true
   -
@@ -33,7 +33,7 @@ services:
         content:
           -
             type: text
-            text: 'Savjetovanje o financijskim proizvodima , financiranje imovine, projektno, financiranje, osiguranja, factoring'
+            text: 'Savjetovanje o financijskim proizvodima, financiranje ulaganja i kupoprodaje imovine, projektno financiranje, osiguranje od rizika.'
     type: item
     enabled: true
   -
@@ -45,7 +45,7 @@ services:
         content:
           -
             type: text
-            text: 'Sudski sporovi (parnični i izvanparnični), arbitražni postupci, medijacija (mirenje), ovrhe'
+            text: 'Sudski sporovi (parnični i izvanparnični), arbitražni postupci, medijacija (mirenje), ovrhe.'
     type: item
     enabled: true
   -
@@ -57,7 +57,7 @@ services:
         content:
           -
             type: text
-            text: 'Postupci pred upravnim tijelima i sudovima'
+            text: 'Postupci pred upravnim tijelima i sudovima.'
     type: item
     enabled: true
   -
@@ -69,7 +69,19 @@ services:
         content:
           -
             type: text
-            text: 'Zastupanje vjerovnika/dužnika, pravna suradnja sa društvom u stečaju, restrukturiranje stečajnog dužnika'
+            text: 'Zastupanje vjerovnika u stečajnom postupku, prijava tražbina vjerovnika i pokretanje parnica, vođenje postupaka pobijanje dužnikovih pravnih radnji. Marijana Babić je i licencirani stečajni upravitelj pa posjeduje specijalističko znanje u ovom području.'
+    type: item
+    enabled: true
+  -
+    id: m0l8m639
+    headline: 'Predstečajni postupci'
+    description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Restrukturiranje Dužnika i podnošenje prijedloga za otvaranje predstečajnog postupka, zastupanje Dužnika i vjerovnika u predstečajnom postupku, izrada Plana restrukturiranja – u financijskom dijelu izrade Plana postoji suradnja sa društvom Savjetovanje Fidelitas d.o.o., Budmanijeva 1, Zagreb.'
     type: item
     enabled: true
   -
@@ -81,7 +93,7 @@ services:
         content:
           -
             type: text
-            text: 'Radni sporovi, planovi restrukturiranja i zbrinjavanja viška troškova, ugovori o radu i managerski, ugovori, izrada pravilnika o radu i statusne dokumentacije društva, ishođenje radnih dozvola'
+            text: 'Radni sporovi, ugovori o radu i managerski ugovori, izrada pravilnika o radu i statusne dokumentacije društva, ishođenje radnih dozvola.'
     type: item
     enabled: true
   -
@@ -93,7 +105,7 @@ services:
         content:
           -
             type: text
-            text: 'Zk pitanja nekretnina, stjecanje i prodaje nekretnina, zakup /najam'
+            text: 'Zk pitanja nekretnina, stjecanje i prodaje nekretnina, zakup /najam.'
     type: item
     enabled: true
   -
@@ -105,7 +117,7 @@ services:
         content:
           -
             type: text
-            text: 'Projekti obnovljivih izvora energije (mali i srednji)'
+            text: 'Projekti obnovljivih izvora energije (mali i srednji).'
     type: item
     enabled: true
   -
@@ -117,7 +129,7 @@ services:
         content:
           -
             type: text
-            text: 'Sportski ugovori, pravno savjetovanje'
+            text: 'Sportski ugovori, pravno savjetovanje.'
     type: item
     enabled: true
   -
@@ -129,7 +141,7 @@ services:
         content:
           -
             type: text
-            text: 'Nova eu uredba o zaštiti podataka 2016/679 (2018)'
+            text: 'EU uredba o zaštiti podataka 2016/679 (2018).'
     type: item
     enabled: true
   -
@@ -141,7 +153,7 @@ services:
         content:
           -
             type: text
-            text: 'Iniciranje kaznenih progona/postupaka, zastupanje u kaznenim postupcima radi gospodarskih kaznenih djela'
+            text: 'Iniciranje kaznenih progona/postupaka, zastupanje u kaznenim postupcima radi gospodarskih kaznenih djela.'
     type: item
     enabled: false
   -
@@ -153,11 +165,11 @@ services:
         content:
           -
             type: text
-            text: 'Iniciranje prekršajnih postupaka, zaštita, zastupanje'
+            text: 'Iniciranje prekršajnih postupaka, zaštita, zastupanje.'
     type: item
     enabled: false
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1719678747
+updated_at: 1725446310
 parent: 47d78bb4-143b-45d6-ac5f-0d8ab9802064
 template: pages/services
 ---

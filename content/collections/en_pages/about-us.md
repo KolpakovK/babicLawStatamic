@@ -17,7 +17,7 @@ bio_description:
     content:
       -
         type: text
-        text: 'Marijana is providing assistance by counselling market leaders and natural persons in all matters. She advises businesses in all aspects of statutory and corporate issues, compliance issues and regulatory, including due diligence, competition, day to day corporate issues. Also, general finance and tax issues, Employment contracts, Commercial contracts, Investment Agreements, SPA, SHA, company transformations, as well as in sectors such as E-Commerce Technologies, Privacy Policies, E-Commerce Agreements, confidentiality agreements and GDPR.'
+        text: 'Firm is providing legal services by counselling corporate market leaders and natural persons in all matters. Firm advises businesses in all aspects of statutory and corporate issues, compliance issues and regulatory, including due diligence, competition law, day to day corporate issues. Firm provides advisory services in general finance and tax issues, Employment contracts, Commercial contracts, Investment Agreements, SPA, SHA, Company’s transformations, as well as in sectors such as confidentiality agreements and GDPR.'
 about:
   -
     id: lwv35kk7
