@@ -1,0 +1,26 @@
+default_collection_priorities:
+  -
+    id: m0s02rjn
+    collection: pages
+    priority: 1.0
+    type: collection_priority
+    enabled: true
+  -
+    id: m0s02v9n
+    collection: en_pages
+    priority: 0.9
+    type: collection_priority
+    enabled: true
+  -
+    id: m0s039u3
+    collection: en_blog
+    priority: 0.5
+    type: collection_priority
+    enabled: true
+  -
+    id: m0s03dmb
+    collection: hr_blog
+    priority: 0.5
+    type: collection_priority
+    enabled: true
+exclude_collections_from_sitemap: null

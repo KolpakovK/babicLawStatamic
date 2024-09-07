@@ -5,7 +5,7 @@ title: 'Home page'
 author: c6c54749-2055-49a6-898f-4d67a70cc8b2
 template: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1719752316
+updated_at: 1725704652
 hero_image: trgbanazagreb.jpg
 hero_headline: 'Your Trusted Legal Partner'
 hero_description:
@@ -318,4 +318,9 @@ logos_row:
   -
     id: ly0bvkpz
     logo: ax-group-logo-horizontal-bk-200x48.png
+alt_seo_meta_description: 'Your trusted legal partner. Law office Babić. Experienced attorneys dedicated to protecting your rights and achieving your goals.'
+alt_seo_noindex: false
+alt_seo_nofollow: false
+sitemap_priority: 1.0
+exclude_from_sitemap: false
 ---

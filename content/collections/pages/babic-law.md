@@ -39,7 +39,7 @@ about_us_quote:
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg
 template_field: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1719752327
+updated_at: 1725704782
 feature_tag: 'O nama'
 feature_headline: 'Naš odvjetnički ured specijaliziran je za pružanje pravnih savjeta u području trgovačkog prava.'
 feature_actions:
@@ -324,4 +324,10 @@ logos_row:
   -
     id: ly0bvsl3
     logo: ax-group-logo-horizontal-bk-200x48-1719678007.png
+alt_seo_meta_title: 'Početna | Babić Law'
+alt_seo_meta_description: 'Vaš pouzdani pravni partner. Odvjetnički ured Babić. Iskusni odvjetnici posvećeni zaštiti vaših prava i ostvarenju vaših ciljeva.'
+alt_seo_noindex: false
+alt_seo_nofollow: false
+exclude_from_sitemap: false
+sitemap_priority: 1.0
 ---
