@@ -17,13 +17,13 @@ bio_description:
     content:
       -
         type: text
-        text: 'Marijana pruža pomoć savjetovanjem pravnih i fizičkih osoba u svim korporativnim i osobnim pitanjima. Ona savjetuje tvrtke u statusnim i korporativnim stvarima, pitanjima usklađenosti poslovanja, uključujući due diligence, pravo konkurentnosti, day to day poslovna pitanja. '
+        text: 'Ured pruža pomoć savjetovanjem pravnih i fizičkih osoba u svim korporativnim i osobnim pitanjima. Ured savjetuje tvrtke u statusnim i korporativnim stvarima, pitanjima usklađenosti poslovanja, uključujući due diligence, pravo konkurentnosti, svakodnevnim općim pravnim pitanjima.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Također, ona savjetuje pravne osobe vezano uz opća financijska i porezna pitanja, ugovore o radu, komercijalne ugovore, ulaganja, SPA, SHA, preoblikovanja pravnih osoba, kao i u sektorima kao što su e-trgovina, politike privatnosti, ugovori, povjerljivost podataka i GDPR.'
+        text: 'Također, ured savjetuje pravne osobe vezano uz opća financijska i porezna pitanja, ugovore o radu, komercijalne ugovore, ulaganja, SPA, SHA, preoblikovanja pravnih osoba, kao i u sektorima kao što su povjerljivost podataka i GDPR.'
 about:
   -
     id: lwv143hy
@@ -103,6 +103,6 @@ about:
     enabled: true
 template: pages/about-us
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1719678435
+updated_at: 1725446415
 parent: 47d78bb4-143b-45d6-ac5f-0d8ab9802064
 ---
