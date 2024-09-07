@@ -11,6 +11,8 @@ tabs:
               type: text
               required: true
               display: Title
+              validate:
+                - required
       -
         display: Hero
         fields:
@@ -86,6 +88,16 @@ tabs:
                             remove_empty_nodes: false
                             type: bard
                             display: Description
+      -
+        display: 'Image banner'
+        fields:
+          -
+            handle: image_banner_asset
+            field:
+              max_files: 1
+              container: assets
+              type: assets
+              display: 'Image banner asset'
   sidebar:
     display: Sidebar
     sections:

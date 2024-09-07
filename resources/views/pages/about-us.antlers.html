@@ -38,3 +38,14 @@
         {{ /about }}
     </div>
 </div>
+
+
+{{ if image_banner_asset }}
+
+<div class="flex justify-center pb-20 lg:pb-40">
+    <div class="container flex flex-col gap-12">
+        <img src="{{ image_banner_asset.url }}" alt="{{ image_banner_asset.alt }}">
+    </div>
+</div>
+
+{{ /if }}
