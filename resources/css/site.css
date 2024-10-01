@@ -117,11 +117,11 @@
     }
 
     .bard th{
-        @apply text-left text-base font-semibold text-gray-500 py-1;
+        @apply text-left text-base font-semibold text-gray-500 p-1 border-r border-gray-200;
     }
 
     .bard td{
-        @apply text-left text-base font-normal text-gray-950 py-1;
+        @apply text-left text-base font-normal text-gray-950 p-1 border-r border-gray-200;
     }
 
     .bard a{
