@@ -57,7 +57,7 @@ services:
         content:
           -
             type: text
-            text: "Representation of creditors in bankruptcy proceedings, filing of creditor's claims and initiation of lawsuits, conducting proceedings and rebutting debtor's legal actions. Marijana Babić is also a licensed bankruptcy trustee, so she has specialist knowledge in this area."
+            text: "Representation of creditors in bankruptcy proceedings, filing of creditor's claims and initiation of lawsuits, conducting proceedings and rebutting debtor's legal actions. Marijana Babić is a licensed bankruptcy trustee, has specialist knowledge in this area."
     type: item
     enabled: true
   -
@@ -81,7 +81,7 @@ services:
         content:
           -
             type: text
-            text: 'Labour disputes, plans for restructuring and redundancy costs brisati, employment and managerial contracts, WORK REGULATION and statutory documentation, work permits.'
+            text: 'Labour disputes, Employment and managerial contracts, Work Regulation for companies, statutory documents, work permits'
     type: item
     enabled: true
   -
@@ -121,30 +121,6 @@ services:
     type: item
     enabled: true
   -
-    id: lwv3bkdz
-    headline: 'Criminal law'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Initiating criminal proceedings, representation of defendants in criminal proceedings for economic criminal offences.'
-    type: item
-    enabled: false
-  -
-    id: lwv3bqax
-    headline: 'Misdemeanour law'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Initiating misdemeanour proceedings, protection, representation.'
-    type: item
-    enabled: false
-  -
     id: lwv3bw4p
     headline: 'Data Protection Law'
     description:
@@ -157,6 +133,9 @@ services:
     type: item
     enabled: true
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1725447617
+updated_at: 1727462206
 template: pages/services
+alt_seo_noindex: false
+alt_seo_nofollow: false
+exclude_from_sitemap: false
 ---

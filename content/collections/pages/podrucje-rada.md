@@ -59,7 +59,7 @@ services:
             type: text
             text: 'Postupci pred upravnim tijelima i sudovima.'
     type: item
-    enabled: true
+    enabled: false
   -
     id: lwv2ydj3
     headline: 'Stečajni postupci'
@@ -69,7 +69,9 @@ services:
         content:
           -
             type: text
-            text: 'Zastupanje vjerovnika u stečajnom postupku, prijava tražbina vjerovnika i pokretanje parnica, vođenje postupaka pobijanje dužnikovih pravnih radnji. Marijana Babić je i licencirani stečajni upravitelj pa posjeduje specijalističko znanje u ovom području.'
+            text: 'Zastupanje vjerovnika u stečajnom postupku, prijava tražbina vjerovnika u stečaj i pokretanje parnica, postupci pobijanja dužnikovih pravnih radnji. Marijana Babić je licencirani stečajni upravitelj pa posjeduje specijalističko znanje u ovom području. '
+      -
+        type: paragraph
     type: item
     enabled: true
   -
@@ -81,7 +83,7 @@ services:
         content:
           -
             type: text
-            text: 'Restrukturiranje Dužnika i podnošenje prijedloga za otvaranje predstečajnog postupka, zastupanje Dužnika i vjerovnika u predstečajnom postupku, izrada Plana restrukturiranja – u financijskom dijelu izrade Plana postoji suradnja sa društvom Savjetovanje Fidelitas d.o.o., Budmanijeva 1, Zagreb.'
+            text: 'Restrukturiranje Dužnika i podnošenje prijedloga za otvaranje predstečajnog postupka, zastupanje Dužnika i vjerovnika u predstečajnom postupku, prijava tražbina, izrada Plana restrukturiranja – u financijskom dijelu izrade Plana postoji suradnja sa društvom Savjetovanje Fidelitas d.o.o., Budmanijeva 1, Zagreb.'
     type: item
     enabled: true
   -
@@ -93,7 +95,7 @@ services:
         content:
           -
             type: text
-            text: 'Radni sporovi, ugovori o radu i managerski ugovori, izrada pravilnika o radu i statusne dokumentacije društva, ishođenje radnih dozvola.'
+            text: 'Radni sporovi, ugovori o radu i managerski ugovori, izrada pravilnika o radu, ishođenje radnih dozvola.'
     type: item
     enabled: true
   -
@@ -144,32 +146,11 @@ services:
             text: 'EU uredba o zaštiti podataka 2016/679 (2018).'
     type: item
     enabled: true
-  -
-    id: lwv2zqe0
-    headline: 'Kazneno pravo'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Iniciranje kaznenih progona/postupaka, zastupanje u kaznenim postupcima radi gospodarskih kaznenih djela.'
-    type: item
-    enabled: false
-  -
-    id: lwv2zxev
-    headline: 'Prekršajno pravo'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Iniciranje prekršajnih postupaka, zaštita, zastupanje.'
-    type: item
-    enabled: false
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1725446310
+updated_at: 1727794698
 parent: 47d78bb4-143b-45d6-ac5f-0d8ab9802064
 template: pages/services
+alt_seo_noindex: false
+alt_seo_nofollow: false
+exclude_from_sitemap: false
 ---

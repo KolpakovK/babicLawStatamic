@@ -39,7 +39,7 @@ about_us_quote:
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg
 template_field: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1725704782
+updated_at: 1727462430
 feature_tag: 'O nama'
 feature_headline: 'Naš odvjetnički ured specijaliziran je za pružanje pravnih savjeta u području trgovačkog prava.'
 feature_actions:
@@ -99,7 +99,7 @@ about_us_description:
     content:
       -
         type: text
-        text: 'Odvjetnički ured Babić pruža pravne usluge domaćim i stranim klijentima u području međunarodnog trgovačkog prava, zastupanja pred sudovima, u arbitražama te postupcima mirenja i medijacije. Vaš uspjeh u poslovanju je i naš uspjeh!'
+        text: 'Ured savjetuje domaće i inozemne pravne i fizičke osobe u trgovačkim i osobnim pravnim pitanjima. Ured savjetuje pravne osobe u statusnim i korporativnim pitanjima, pitanjima usklađenosti poslovanja, te svakodnevnim općim pravnim pitanjima. Vaš poslovni uspjeh je naš poslovni uspjeh.'
 about_us_image: 20240415_121526-(1)-(1).jpg
 services_tag: Usluge
 services_headline: 'Pouzdane pravne usluge'
@@ -121,7 +121,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Statusne promjene, preuzimanja/spajanja, identifikacija i kontrola rizika, dubinske pravne analize, ulaganja, likvidacije, zastupanja društava, ugovorno pravo, regulatorna pitanja, naplata.'
+            text: 'Statusne promjene, preuzimanja i spajanja društava, due dilligence, ulaganja u društva i kupoprodaja dionica, likvidacija, zastupanje društva, ugovorno pravo, regulatorna pitanja, naplata potraživanja.'
     type: card
     enabled: true
   -
@@ -134,20 +134,20 @@ services_cards:
         content:
           -
             type: text
-            text: 'Savjetovanje o financijskim proizvodima , financiranje imovine, projektno, financiranje, osiguranja, factoring.'
+            text: 'Savjetovanje o financijskim proizvodima, financiranje ulaganja i kupoprodaje imovine, projektno financiranje, osiguranje od rizika.'
     type: card
     enabled: true
   -
-    id: lwuhwxo5
-    icon: ri-home-8-line
-    headline: 'Zaštita podataka'
+    id: m141hvty
+    icon: ri-building-2-line
+    headline: Sporovi
     description:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Nova EU uredba o zaštiti podataka 2016/679 (2018)'
+            text: 'Sudski sporovi (parnični i izvanparnični), arbitražni postupci, medijacija (mirenje), ovrhe.'
     type: card
     enabled: true
   -
@@ -160,7 +160,20 @@ services_cards:
         content:
           -
             type: text
-            text: "Zastupanje vjerovnika/dužnika,\_pravna suradnja sa društvom u stečaju,\_restrukturiranje stečajnog dužnika."
+            text: 'Zastupanje vjerovnika u stečajnom postupku, prijava tražbina vjerovnika u stečaj i pokretanje parnica, postupci pobijanja dužnikovih pravnih radnji. Marijana Babić je licencirani stečajni upravitelj pa posjeduje specijalističko znanje u ovom području.'
+    type: card
+    enabled: true
+  -
+    id: lwuhx691
+    icon: ri-hand-heart-line
+    headline: 'Obiteljsko pravo'
+    description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Savjetovanje klijenata o njihovim pravima u braku i razvodu, zastupanje pred sudom i sastavljanje potrebnih pravnih dokumenata.'
     type: card
     enabled: true
   -
@@ -173,20 +186,13 @@ services_cards:
         content:
           -
             type: text
-            text: 'Radni sporovi, planovi restrukturiranja i zbrinjavanja viška troškova, ugovori o radu i managerski, ugovori, izrada pravilnika o radu i statusne dokumentacije društva, ishođenje radnih dozvola.'
-    type: card
-    enabled: true
-  -
-    id: lwuhx8bg
-    icon: ri-lightbulb-flash-line
-    headline: 'Energetsko pravo'
-    description:
+            text: 'Radni sporovi, ugovori o radu i managerski ugovori, izrada pravilnika o radu, ishođenje radnih dozvola.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Projekti obnovljivih izvora energije (mali i srednji).'
+            text: "\_"
     type: card
     enabled: true
   -
@@ -203,16 +209,42 @@ services_cards:
     type: card
     enabled: true
   -
-    id: lwuhx691
-    icon: ri-hand-heart-line
-    headline: 'Obiteljsko pravo'
+    id: lwuhx8bg
+    icon: ri-lightbulb-flash-line
+    headline: 'Energetsko pravo'
     description:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Savjetovanje klijenata o njihovim pravima u braku i razvodu, zastupanje pred sudom i sastavljanje potrebnih pravnih dokumenata.'
+            text: 'Projekti obnovljivih izvora energije (mali i srednji).'
+    type: card
+    enabled: true
+  -
+    id: m141i2gm
+    icon: ri-basketball-line
+    headline: 'Sportsko pravo'
+    description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Sportski ugovori, pravno savjetovanje.'
+    type: card
+    enabled: true
+  -
+    id: lwuhwxo5
+    icon: ri-home-8-line
+    headline: 'Zaštita podataka'
+    description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'EU uredba o zaštiti podataka 2016/679 (2018)'
     type: card
     enabled: true
 testimonials_tag: 'Što naši klijenti kažu o nama'

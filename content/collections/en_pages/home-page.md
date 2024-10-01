@@ -5,7 +5,7 @@ title: 'Home page'
 author: c6c54749-2055-49a6-898f-4d67a70cc8b2
 template: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1725704652
+updated_at: 1727462204
 hero_image: trgbanazagreb.jpg
 hero_headline: 'Your Trusted Legal Partner'
 hero_description:
@@ -32,7 +32,7 @@ hero_actions:
     type: button
     enabled: true
 feature_tag: 'About us'
-feature_headline: 'The firm is oriented on providing legal advising in the area of corporate law.'
+feature_headline: 'The firm is oriented to providing legal advising in the area of corporate law.'
 feature_actions:
   -
     id: lwv00r0z
@@ -115,7 +115,7 @@ services_cards:
         content:
           -
             type: text
-            text: 'Statutory changes in companies, corporate matters , mergers and acquisitions, risk control, legal due diligence, joint ventures, liquidation, representation of companies, contract law, regulatory issues, collection of claims'
+            text: 'Statutory changes in companies, corporate matters, mergers and acquisitions, risk control, legal due diligence, joint ventures, liquidation, representation of companies, contract law, regulatory issues, collection of claims'
     type: card
     enabled: true
   -
@@ -132,16 +132,16 @@ services_cards:
     type: card
     enabled: true
   -
-    id: lwv03axg
-    icon: ri-home-8-line
-    headline: 'Data protection law'
+    id: m13nolpr
+    icon: ri-building-2-line
+    headline: Disputes
     description:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Implementation of a new GDPR 2016/679 (2018)'
+            text: 'Court proceedings (litigation and non-contentious proceedings), arbitration, mediation (conciliation), enforcement proceedings'
     type: card
     enabled: true
   -
@@ -158,6 +158,19 @@ services_cards:
     type: card
     enabled: true
   -
+    id: lwv036wj
+    icon: ri-hand-heart-line
+    headline: 'Family law'
+    description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Advising clients on their rights in marriage and divorce, representing them in court, and drafting necessary legal documents.'
+    type: card
+    enabled: true
+  -
     id: lwv039dn
     icon: ri-compasses-2-line
     headline: 'Labour law'
@@ -167,7 +180,20 @@ services_cards:
         content:
           -
             type: text
-            text: 'Labour disputes, plans for restructuring and redundancy costs, employment and managerial contracts, drafting company employment rules and statutory documentation, work permits'
+            text: 'Labour disputes, Employment and Managerial contracts, Work Regulation for companies, statutory documents, work permits'
+    type: card
+    enabled: true
+  -
+    id: lwv037sz
+    icon: ri-home-heart-line
+    headline: 'Property rights and ownership'
+    description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Real estate status in land registry books,\_acquisition and sale of real estate, lease/rent agreements"
     type: card
     enabled: true
   -
@@ -184,29 +210,29 @@ services_cards:
     type: card
     enabled: true
   -
-    id: lwv037sz
-    icon: ri-home-heart-line
-    headline: 'Property rights'
+    id: m141f09y
+    icon: ri-basketball-line
+    headline: 'Sports law'
     description:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Real estate status in land registry books,\_ acquisition and sale of real estate, leasing/renting"
+            text: 'Agreements, legal advising.'
     type: card
     enabled: true
   -
-    id: lwv036wj
-    icon: ri-hand-heart-line
-    headline: 'Family law'
+    id: lwv03axg
+    icon: ri-home-8-line
+    headline: 'Data protection law'
     description:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Advising clients on their rights in marriage and divorce, representing them in court, and drafting necessary legal documents.'
+            text: 'Implementation of GDPR 2016/679 (2018)'
     type: card
     enabled: true
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg

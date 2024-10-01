@@ -17,13 +17,42 @@ bio_description:
     content:
       -
         type: text
-        text: 'Ured pruža pomoć savjetovanjem pravnih i fizičkih osoba u svim korporativnim i osobnim pitanjima. Ured savjetuje tvrtke u statusnim i korporativnim stvarima, pitanjima usklađenosti poslovanja, uključujući due diligence, pravo konkurentnosti, svakodnevnim općim pravnim pitanjima.'
+        text: 'Ured savjetuje pravne i fizičke osobe u svim korporativnim i osobnim pitanjima. Ured savjetuje tvrtke u statusnim i korporativnim stvarima, pitanjima usklađenosti poslovanja.'
   -
     type: paragraph
     content:
       -
         type: text
         text: 'Također, ured savjetuje pravne osobe vezano uz opća financijska i porezna pitanja, ugovore o radu, komercijalne ugovore, ulaganja, SPA, SHA, preoblikovanja pravnih osoba, kao i u sektorima kao što su povjerljivost podataka i GDPR.'
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Ured surađuje sa drugim uredima u Hrvatskoj i inozemstvu:'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'GvW Graf von Westphalen, Hamburg'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Fieldfischer, Hamburg'
 about:
   -
     id: lwv143hy
@@ -103,7 +132,10 @@ about:
     enabled: true
 template: pages/about-us
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1725701520
+updated_at: 1727364957
 parent: 47d78bb4-143b-45d6-ac5f-0d8ab9802064
 image_banner_asset: acap-day-2-10.jpg
+alt_seo_noindex: false
+alt_seo_nofollow: false
+exclude_from_sitemap: false
 ---

@@ -18,6 +18,33 @@ bio_description:
       -
         type: text
         text: 'Firm is providing legal services by counselling corporate market leaders and natural persons in all matters. Firm advises businesses in all aspects of statutory and corporate issues, compliance issues and regulatory, including due diligence, competition law, day to day corporate issues. Firm provides advisory services in general finance and tax issues, Employment contracts, Commercial contracts, Investment Agreements, SPA, SHA, Company’s transformations, as well as in sectors such as confidentiality agreements and GDPR.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The office cooperates with other offices in Croatia and abroad:'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'GvW Graf von Westphalen, Hamburg'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Fieldfischer, Hamburg'
 about:
   -
     id: lwv35kk7
@@ -85,19 +112,10 @@ about:
             marks:
               -
                 type: bold
-            text: 'Law Firm Gugić, Kovačić & Krivić LLC, '
+            text: 'Law Firm Gugić, Kovačić & Krivić LLC'
           -
             type: text
-            text: Zagreb
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: ' '
-          -
-            type: text
-            text: 'as Associate/Attorney'
+            text: ', Zagreb as Associate/Attorney'
     type: item
     enabled: true
   -
@@ -148,6 +166,9 @@ about:
     enabled: true
 template: pages/about-us
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1725701150
+updated_at: 1727365046
 image_banner_asset: acap-day-2-10.jpg
+alt_seo_noindex: false
+alt_seo_nofollow: false
+exclude_from_sitemap: false
 ---
