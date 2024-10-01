@@ -104,6 +104,26 @@
         @apply list-decimal italic;
     }
 
+    .bard table{
+        @apply p-4 border border-gray-200;
+    }
+
+    .bard table{
+        @apply p-4 border border-gray-200;
+    }
+
+    .bard tr{
+        @apply border-b border-gray-200
+    }
+
+    .bard th{
+        @apply text-left text-base font-semibold text-gray-500 py-1;
+    }
+
+    .bard td{
+        @apply text-left text-base font-normal text-gray-950 py-1;
+    }
+
     .blog-card-content img{
         @apply hidden;
     }
