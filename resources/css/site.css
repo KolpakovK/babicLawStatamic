@@ -107,4 +107,20 @@
     .blog-card-content img{
         @apply hidden;
     }
+
+    .bard-second ul, .bard-second ol{
+        @apply list-inside;
+    }
+
+    .bard-second ul{
+        @apply list-disc;
+    }
+
+    .bard-second ol{
+        @apply list-decimal;
+    }
+
+    .bard-second ul li p, .bard-second ol li p{
+        @apply inline;
+    }
 }

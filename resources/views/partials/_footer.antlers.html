@@ -11,44 +11,58 @@
     <img src="{{ image.url }}" alt="{{ image.alt }}" class="w-full h-full absolute left-0 top-0 object-cover opacity-50 bg-blend-luminosity">
     <div class="overflow-hidden w-full h-full absolute left-0 top-0 z-10 bg-gradient-to-tr from-blue-600 via-blue-600 to-transparent"></div>
 
-    <div class="container grid grid-cols-4 lg:grid-cols-8 gap-12 lg:gap-6 items-center z-20">
-        <div class="flex flex-col gap-8 lg:gap-16 col-span-4">
-            <div class="flex flex-col gap-4">
-                <p class="font-display text-3xl lg:text-5xl text-white">
-                    {{ if {session:localization}=="hr" }}
-                        {{ hr_headline }}
-                    {{ else }}
-                        {{ en_headline }}
-                    {{ /if }}
-                </p>
-                <p class="font-body text-xl text-white/80">
-                    {{ if {session:localization}=="hr" }}
-                        {{ hr_description }}
-                    {{ else }}
-                        {{ en_description }}
-                    {{ /if }} 
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
-                {{ contact_data }}
-                <div class="flex flex-col gap-0 pl-4 border-l border-l-white">
-                    <p class="font-display text-white text-xl">{{ info }}</p>
-                    <p class="font-body text-base text-white/80">
+    <div class="container z-20 flex flex-col gap-8 lg:gap-12">
+        <div class="grid grid-cols-4 lg:grid-cols-8 gap-12 lg:gap-6 items-center ">
+            <div class="flex flex-col gap-8 lg:gap-16 col-span-4">
+                <div class="flex flex-col gap-4">
+                    <p class="font-display text-3xl lg:text-5xl text-white">
                         {{ if {session:localization}=="hr" }}
-                            {{ hr_label }}
+                            {{ hr_headline }}
                         {{ else }}
-                            {{ en_label }}
+                            {{ en_headline }}
+                        {{ /if }}
+                    </p>
+                    <p class="font-body text-xl text-white/80">
+                        {{ if {session:localization}=="hr" }}
+                            {{ hr_description }}
+                        {{ else }}
+                            {{ en_description }}
                         {{ /if }} 
                     </p>
                 </div>
-                {{ /contact_data }}
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
+                    {{ contact_data }}
+                    <div class="flex flex-col gap-0 pl-4 border-l border-l-white">
+                        <p class="font-display text-white text-xl">{{ info }}</p>
+                        <p class="font-body text-base text-white/80">
+                            {{ if {session:localization}=="hr" }}
+                                {{ hr_label }}
+                            {{ else }}
+                                {{ en_label }}
+                            {{ /if }} 
+                        </p>
+                    </div>
+                    {{ /contact_data }}
+                </div>
             </div>
+
+            <contact-form :darkTheme="{{false}}" class="col-span-4 lg:col-span-3 lg:col-start-6">
+                <template>{{ csrf_field }}</template>
+            </contact-form>
         </div>
 
-        <contact-form :darkTheme="{{false}}" class="col-span-4 lg:col-span-3 lg:col-start-6">
-            <template>{{ csrf_field }}</template>
-        </contact-form>
+        <div class="flex flex-wrap gap-2">
+            {{ if {session:localization}=="hr" }}
+                {{ collection from="hr_legal" }}
+                    <a href="{{ url }}" class=" text-white text-base underline hover:opacity-75 duration-150">{{ title }}</a>
+                {{ /collection }}
+            {{ else }}
+                {{ collection from="en_legal" }}
+                    <a href="{{ url }}" class=" text-white text-base underline hover:opacity-75 duration-150">{{ title }}</a>
+                {{ /collection }}
+            {{ /if }}
+        </div>
     </div>
 </div>
 
