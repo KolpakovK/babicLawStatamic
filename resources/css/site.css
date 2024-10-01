@@ -124,6 +124,10 @@
         @apply text-left text-base font-normal text-gray-950 py-1;
     }
 
+    .bard a{
+        @apply !text-blue-500 !underline
+    }
+
     .blog-card-content img{
         @apply hidden;
     }
