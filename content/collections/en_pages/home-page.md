@@ -5,7 +5,7 @@ title: 'Home page'
 author: c6c54749-2055-49a6-898f-4d67a70cc8b2
 template: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1727462204
+updated_at: 1729619354
 hero_image: trgbanazagreb.jpg
 hero_headline: 'Your Trusted Legal Partner'
 hero_description:
@@ -276,21 +276,21 @@ testimonials_testimonials:
     image: oip-(1).jpg
     feedback: '"Their team was incredibly professional, knowledgeable, and supportive throughout my entire legal process. They were always available to answer my questions and put me at ease."'
     type: card
-    enabled: true
+    enabled: false
   -
     id: lwv045yb
     author: Marija
     image: oip-(1).jpg
     feedback: '"They handled my complex case with expertise and efficiency, always keeping me informed and involved in the decision-making process. I am incredibly grateful for their hard work and highly recommend them to anyone seeking legal representation."'
     type: card
-    enabled: true
+    enabled: false
   -
     id: lwv0451f
     author: Mateo
     image: oip-(1).jpg
     feedback: '"My legal issue was resolved quickly and efficiently. They were by my side every step of the way, patiently explaining all the legal details and offering the best possible solutions. Their expertise and dedication are undeniable."'
     type: card
-    enabled: true
+    enabled: false
 blog_tag: Blog
 blog_headline: News
 blog_description:

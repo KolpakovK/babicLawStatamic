@@ -39,7 +39,7 @@ about_us_quote:
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg
 template_field: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1727462430
+updated_at: 1729619372
 feature_tag: 'O nama'
 feature_headline: 'Naš odvjetnički ured specijaliziran je za pružanje pravnih savjeta u području trgovačkog prava.'
 feature_actions:
@@ -287,21 +287,21 @@ testimonials_testimonials:
     image: oip-(1).jpg
     feedback: '"Tim je bio iznimno profesionalan, stručan i podržavao me kroz cijeli pravni proces. Uvijek su bili dostupni za odgovore na moja pitanja i ulijevali su mi povjerenje."'
     type: card
-    enabled: true
+    enabled: false
   -
     id: lwuhyxrh
     author: Marija
     image: oip-(1).jpg
     feedback: '"Od prvog kontakta osjetila sam kao da sam u sigurnim rukama. Njihova stručnost, transparentnost i predanost klijentu su zaista impresivne. Uspješno su riješili moj slučaj, čak i kada su se pojavile neočekivane prepreke. Toplo preporučujem ovaj tim svakome tko traži vrhunsku pravnu pomoć."'
     type: card
-    enabled: true
+    enabled: false
   -
     id: lwuhyw7x
     author: Mateo
     image: oip-(1).jpg
     feedback: '"Moj pravni problem je riješen brzo i učinkovito. Bili su uz mene na svakom koraku, strpljivo objašnjavajući sve pravne detalje i nudeći najbolja moguća rješenja. Njihova stručnost i predanost su neosporne."'
     type: card
-    enabled: true
+    enabled: false
 blog_tag: Blog
 blog_headline: Novosti
 blog_description:
