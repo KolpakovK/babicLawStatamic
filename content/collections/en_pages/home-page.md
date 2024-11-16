@@ -5,7 +5,7 @@ title: 'Home page'
 author: c6c54749-2055-49a6-898f-4d67a70cc8b2
 template: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1729619354
+updated_at: 1731708960
 hero_image: trgbanazagreb.jpg
 hero_headline: 'Your Trusted Legal Partner'
 hero_description:
@@ -118,6 +118,7 @@ services_cards:
             text: 'Statutory changes in companies, corporate matters, mergers and acquisitions, risk control, legal due diligence, joint ventures, liquidation, representation of companies, contract law, regulatory issues, collection of claims'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwv03brv
     icon: ri-bank-line
@@ -131,6 +132,7 @@ services_cards:
             text: 'General advising on financial products, asset finance, project finance, factoring, collaterals'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: m13nolpr
     icon: ri-building-2-line
@@ -144,6 +146,7 @@ services_cards:
             text: 'Court proceedings (litigation and non-contentious proceedings), arbitration, mediation (conciliation), enforcement proceedings'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwv03a5v
     icon: ri-folder-settings-line
@@ -157,6 +160,7 @@ services_cards:
             text: 'Creditors/debtors, legal co-operation with companies in bankruptcy, restructuring of debtors'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwv036wj
     icon: ri-hand-heart-line
@@ -170,6 +174,7 @@ services_cards:
             text: 'Advising clients on their rights in marriage and divorce, representing them in court, and drafting necessary legal documents.'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwv039dn
     icon: ri-compasses-2-line
@@ -183,6 +188,7 @@ services_cards:
             text: 'Labour disputes, Employment and Managerial contracts, Work Regulation for companies, statutory documents, work permits'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwv037sz
     icon: ri-home-heart-line
@@ -196,6 +202,7 @@ services_cards:
             text: "Real estate status in land registry books,\_acquisition and sale of real estate, lease/rent agreements"
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwv038ir
     icon: ri-lightbulb-flash-line
@@ -209,6 +216,7 @@ services_cards:
             text: 'Advising companies in renewable energy projects (small and medium)'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: m141f09y
     icon: ri-basketball-line
@@ -222,6 +230,7 @@ services_cards:
             text: 'Agreements, legal advising.'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwv03axg
     icon: ri-home-8-line
@@ -235,6 +244,7 @@ services_cards:
             text: 'Implementation of GDPR 2016/679 (2018)'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg
 testimonials_tag: 'What our clients say about us'
 testimonials_headline: 'Clients’ testimonials'

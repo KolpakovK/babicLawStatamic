@@ -10,9 +10,15 @@
             <a v-for="tab in nav" :href="tab.url" class="py-1 font-body text-xl text-white duration-500 hover:font-bold" :class="[{ '!text-black/80': isScrolled },{ ' border-b border-b-blue-500': tab.isCurrent }]">{{ tab.name }}</a>
         </div>
 
-        <div class="hidden lg:flex items-center gap-2">
-            <a @click="setCookie('localization','hr',30)" href="/" class="font-body text-xl text-white duration-500 hover:font-bold opacity-40" :class="[{ '!opacity-100': localization=='hr' },{ '!text-black': isScrolled }]">Hr</a>
-            <a @click="setCookie('localization','en',30)" href="/en/home-page" class="font-body text-xl text-white duration-500 hover:font-bold opacity-40" :class="[{ '!opacity-100': localization=='en' },{ '!text-black': isScrolled }]">En</a>
+        <div class="flex items-center gap-6">
+            <div class="hidden lg:flex items-center gap-2">
+                <a @click="setCookie('localization','hr',30)" href="/" class="font-body text-xl text-white duration-500 hover:font-bold opacity-40" :class="[{ '!opacity-100': localization=='hr' },{ '!text-black': isScrolled }]">Hr</a>
+                <a @click="setCookie('localization','en',30)" href="/en/home-page" class="font-body text-xl text-white duration-500 hover:font-bold opacity-40" :class="[{ '!opacity-100': localization=='en' },{ '!text-black': isScrolled }]">En</a>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <a v-for="tab in actions" :href="tab.url" class="btn btn-primary">{{ tab.name }}</a>
+            </div>
         </div>
 
         <button class="btn btn-icon btn-light lg:hidden" @click="isMobileOpened=true"><i class="ri-menu-3-line"></i></button>
@@ -50,6 +56,7 @@ export default{
         return{
             localization:"hr",
             nav:[],
+            actions:[],
             logoWhite:"",
             logoColored:"",
             isScrolled:false,
@@ -64,6 +71,10 @@ export default{
         if (!this.localization) this.localization =  "hr";
         
         this.nav = this.localization=="hr" ? this.content.hrNav : this.content.enNav;
+
+        this.actions = this.nav.filter(item => item.action == true);
+        this.nav = this.nav.filter(item => item.action == false);
+        
 
         this.isScrolled = window.scrollY > 0; // Закреплять, если прокрутка больше 0
         window.addEventListener('scroll', this.handleScroll);

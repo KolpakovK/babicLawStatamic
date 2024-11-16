@@ -10,16 +10,19 @@
 
         <link rel="icon" type="image/x-icon" href="/assets/logocolored.ico">
 
-        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+        <script defer src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
         {{ vite src="resources/css/site.css|resources/js/site.js" }}
+
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     </head>
     <body class="bg-white">
-        <div id="app" class="flex flex-col">
+        <div id="app" class="flex flex-col hidden" x-data x-init="$el.classList.remove('hidden')">
             <navigation :content='{
                 logoWhite:"{{ global:logo_white.url }}",
                 logoColored:"{{ global:logo_colored.url }}",
-                hrNav:[ {{ nav:hr_navigation }}  { name:"{{title}}", url:"{{url}}", isCurrent:{{ if is_current || is_parent }} true {{else}} false {{ /if }} }, {{ /nav:hr_navigation }} ],
-                enNav:[ {{ nav:en_navigation }}  { name:"{{title}}", url:"{{url}}", isCurrent:{{ if is_current || is_parent }} true {{else}} false {{ /if }} }, {{ /nav:en_navigation }} ],
+                hrNav:[ {{ nav:hr_navigation }}  { name:"{{title}}", url:"{{url}}", action: {{ if action }} true {{ else }} false {{ /if }}, isCurrent:{{ if is_current || is_parent }} true {{else}} false {{ /if }} }, {{ /nav:hr_navigation }} ],
+                enNav:[ {{ nav:en_navigation }}  { name:"{{title}}", url:"{{url}}", action: {{ if action }} true {{ else }} false {{ /if }}, isCurrent:{{ if is_current || is_parent }} true {{else}} false {{ /if }} }, {{ /nav:en_navigation }} ],
             }'></navigation>
 
             <main>

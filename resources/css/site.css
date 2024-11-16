@@ -40,6 +40,10 @@
 
 @layer components{
 
+    .container{
+        @apply px-6
+    }
+
     .btn{
         @apply px-6 h-10 flex items-center gap-2 justify-center duration-200 font-body leading-none
     }

@@ -39,7 +39,7 @@ about_us_quote:
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg
 template_field: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1729619372
+updated_at: 1731708768
 feature_tag: 'O nama'
 feature_headline: 'Naš odvjetnički ured specijaliziran je za pružanje pravnih savjeta u području trgovačkog prava.'
 feature_actions:
@@ -124,6 +124,7 @@ services_cards:
             text: 'Statusne promjene, preuzimanja i spajanja društava, due dilligence, ulaganja u društva i kupoprodaja dionica, likvidacija, zastupanje društva, ugovorno pravo, regulatorna pitanja, naplata potraživanja.'
     type: card
     enabled: true
+    image: sven-kucinic-zjwn14slj88-unsplash.jpg
   -
     id: lwuhx26t
     icon: ri-bank-line
@@ -137,6 +138,7 @@ services_cards:
             text: 'Savjetovanje o financijskim proizvodima, financiranje ulaganja i kupoprodaje imovine, projektno financiranje, osiguranje od rizika.'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: m141hvty
     icon: ri-building-2-line
@@ -150,6 +152,7 @@ services_cards:
             text: 'Sudski sporovi (parnični i izvanparnični), arbitražni postupci, medijacija (mirenje), ovrhe.'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwuhwvjh
     icon: ri-folder-settings-line
@@ -163,6 +166,7 @@ services_cards:
             text: 'Zastupanje vjerovnika u stečajnom postupku, prijava tražbina vjerovnika u stečaj i pokretanje parnica, postupci pobijanja dužnikovih pravnih radnji. Marijana Babić je licencirani stečajni upravitelj pa posjeduje specijalističko znanje u ovom području.'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwuhx691
     icon: ri-hand-heart-line
@@ -176,6 +180,7 @@ services_cards:
             text: 'Savjetovanje klijenata o njihovim pravima u braku i razvodu, zastupanje pred sudom i sastavljanje potrebnih pravnih dokumenata.'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwuhwurx
     icon: ri-compasses-line
@@ -195,6 +200,7 @@ services_cards:
             text: "\_"
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwuhx7gd
     icon: ri-home-heart-line
@@ -208,6 +214,7 @@ services_cards:
             text: 'Zk pitanja nekretnina, stjecanje i prodaje nekretnina, zakup /najam.'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwuhx8bg
     icon: ri-lightbulb-flash-line
@@ -221,6 +228,7 @@ services_cards:
             text: 'Projekti obnovljivih izvora energije (mali i srednji).'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: m141i2gm
     icon: ri-basketball-line
@@ -234,6 +242,7 @@ services_cards:
             text: 'Sportski ugovori, pravno savjetovanje.'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
   -
     id: lwuhwxo5
     icon: ri-home-8-line
@@ -247,6 +256,7 @@ services_cards:
             text: 'EU uredba o zaštiti podataka 2016/679 (2018)'
     type: card
     enabled: true
+    image: trgbanazagreb.jpg
 testimonials_tag: 'Što naši klijenti kažu o nama'
 testimonials_headline: 'Iskustva klijenata'
 testimonials_description:

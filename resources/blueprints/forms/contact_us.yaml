@@ -5,6 +5,11 @@ tabs:
       -
         fields:
           -
+            handle: source
+            field:
+              type: text
+              display: Source
+          -
             handle: full_name
             field:
               type: text

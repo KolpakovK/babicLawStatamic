@@ -8,7 +8,7 @@
         </div>
         <input type="text" v-model="value.subject" name="theme" :placeholder="fields[localization].subject" class="text-xl font-body text-black px-2 h-10 bg-white border border-black/20">
         <textarea name="message" v-model="value.message" :placeholder="fields[localization].message" rows="6" class="text-xl font-body text-black px-2 py-2 bg-white border border-black/20"></textarea>
-
+        
         <div v-if="success" class="p-4 bg-green-50 text-green-700">
             <p class="font-display text-xl">{{ fields[localization].success }}</p>
         </div>
@@ -16,7 +16,7 @@
             <p class="font-display text-xl">{{ error }}</p>
         </div>
 
-        <button type="submit" class="btn w-fit" :class="[ darkTheme ? '!btn-light' : '!btn-primary' ]">{{ fields[localization].send }}</button>
+        <button type="submit" class="btn w-fit" :class="[ darktheme ? '!btn-light' : '!btn-primary' ]">{{ fields[localization].send }}</button>
     </form> 
 </template>
 
@@ -24,10 +24,10 @@
 
 export default{
     props:{
-        darkTheme:{
+        darktheme:{
             type:Boolean,
             default:true
-        }
+        },
     },
     data(){
         return{
@@ -38,7 +38,7 @@ export default{
                 name:"",
                 mail:"",
                 subject:"",
-                message:""
+                message:"",
             },
             fields:{
                 hr:{

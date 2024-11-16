@@ -1,0 +1,167 @@
+<div
+    class="w-full min-h-[600px] lg:h-[750px] flex flex-col items-center justify-end py-12 lg:py-24 relative overflow-hidden gap-12">
+    <div class="absolute left-0 top-0 w-full h-full -z-20 brightness-[0.3] pointer-events-none">
+        <img src="{{ hero_image.url }}" alt="{{ hero_image.alt }}" class="w-full h-full object-cover">
+    </div>
+    <div class="absolute left-0 top-0 w-full h-full -z-10 bg-gradient-to-t from-black/75 to-black/0"></div>
+    <div class="container grid grid-cols-4 lg:grid-cols-8 gap-4 lg:gap-6 pb-8 border-b border-white/15 pt-32 lg:pt-0">
+        <div class="flex flex-col gap-8 col-span-4">
+
+            <div class="flex flex-col gap-4">
+                <h1 class=" font-display text-5xl lg:text-8xl text-white font-light">{{ hero_headline }}</h1>
+                <div class="text-white/80 font-body text-xl flex flex-col gap-2 pr-12 lg:pr-64">
+                    {{ hero_description }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-6">
+        {{ hero_advantages }}
+        <div class="flex items-center gap-3">
+            <div class="!h-16 !w-16 flex items-center justify-center bg-blue-600 text-blue-50 text-3xl">
+                <i class="{{ icon }}"></i>
+            </div>
+            <p class="flex-1 font-display text-base lg:text-lg text-white">{{ headline }}</p>
+        </div>
+        {{ /hero_advantages }}
+    </div>
+</div>
+
+<div class="flex justify-center py-20 lg:py-40 overflow-hidden">
+    <div class="container grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-6 items-center overflow-visible">
+        {{ packages_columns }}
+        <div
+            class="px-6 py-12 flex flex-col gap-6 lg:gap-12 justify-center overflow-hidden relative {{ if highlighted }} bg-blue-500 border border-blue-900/15 {{ else }} bg-white border border-black/15 {{ /if }}">
+            {{ svg src="LogoBlueSaddle" class=" absolute top-1/2 -translate-y-1/2 -right-16 opacity-25" }}
+
+            <div class="flex flex-col gap-2 z-20">
+                {{ if highlighted }} <p class="text-white text-base">
+                    {{ if {session:localization}=="hr" }}
+                    Popularno
+                    {{ else }}
+                    Popular
+                    {{ /if }}
+                </p> {{ /if }}
+                <p
+                    class="font-display text-xl lg:text-2xl {{ if highlighted }} text-white {{ else }} text-black {{ /if }}">
+                    {{ headline }}</p>
+            </div>
+
+            <div class="flex flex-col gap-2 z-20">
+                {{ items }}
+                <p
+                    class="pl-6
+                        before:content-[''] before:absolute before:size-2 before:left-0 before:top-3 before:rounded-full
+                        relative text-base lg:text-lg {{ if highlighted }} text-white/90 before:bg-white {{ else }} text-black/75 before:bg-blue-500 {{ /if }}">
+                    {{ text }}</p>
+                {{ /items }}
+            </div>
+
+            <div class="z-20">
+                <button-vue type="{{ if highlighted }} btn-light {{ else }} btn-primary {{ /if }}"
+                    text="{{ action.text | sanitize }}" icon="{{ action.icon }}"
+                    link="{{ action.link.url }}?source={{ headline | sanitize }}"></button-vue>
+            </div>
+        </div>
+        {{ /packages_columns }}
+    </div>
+</div>
+
+<div class="flex flex-col items-center justify-center gap-24 py-20 pt-12 lg:py-40 lg:pt-24 bg-blue-50">
+    <div class="container flex flex-col gap-8">
+        <div class="flex flex-col gap-4">
+            <p class="text-3xl lg:text-5xl text-black font-display" data-sal="slide-up" data-sal-duration="500"
+                data-sal-easing="ease-in-out-sine">{{ why_subscribe_headline }}</p>
+        </div>
+
+    </div>
+
+    <div class="container grid grid-cols-4 lg:grid-cols-12 gap-4 lg:gap-6">
+        {{ why_subscribe_cards }}
+
+        <div
+            class="col-span-4 p-4 lg:px-6 lg:py-8 flex flex-col justify-between h-[300px] relative bg-white overflow-hidden">
+            {{ svg src="LogoBlueSaddle" class=" absolute top-1/2 -translate-y-1/2 -right-16" }}
+
+            <div class="flex items-center justify-center h-12 w-12 bg-blue-600 text-white text-3xl">
+                <i class="{{ icon }}"></i>
+            </div>
+
+            <div class="flex flex-col lg:flex-row gap-2 lg:items-end z-10">
+                <div class="flex flex-col gap-4 flex-1">
+                    <p class=" font-display text-3xl text-black">{{ headline }}</p>
+                    <div class=" font-body text-xl text-black/80">
+                        {{ description }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ /why_subscribe_cards }}
+    </div>
+</div>
+
+
+<!-- Modal Component -->
+<div x-data="modalComponent()" x-init="init()" x-on:hashchange.window="checkHash" class="relative">
+    <!-- Overlay -->
+    <div x-show="isOpen" class="fixed inset-0 bg-black bg-opacity-50 z-40" x-transition.opacity
+        x-on:click="closeModal()">
+    </div>
+
+    <!-- Modal -->
+    <div x-show="isOpen"
+        class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 shadow-lg z-50 w-screen md:max-w-screen-sm lg:max-w-screen-md"
+        x-on:click.away="closeModal()">
+
+        <h2 class="font-display text-xl lg:text-2xl text-black mb-4">Contact Us</h2>
+
+        <!-- Form or Content -->
+        <contact-form :darkTheme="false" class="col-span-4 lg:col-span-3 lg:col-start-6">
+            <template>
+                {{ csrf_field }}
+                <input type="text" x-bind:value="`${ source }`" class="hidden" name="source"/>
+            </template>
+        </contact-form>
+
+        <!-- Close Button -->
+        <button x-on:click="closeModal()"
+            class="absolute top-6 right-6 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
+    </div>
+</div>
+
+<script type="application/javascript">
+    function modalComponent() {
+        return {
+            isOpen: false,
+            source: '',
+            init() {
+                // Check hash on component initialization
+                this.checkHash();
+            },
+            checkHash() {
+                // Open or close modal based on the current hash
+                if (window.location.hash.includes('contact-us-modal')) {
+                    this.isOpen = true;
+                    this.parseParams();
+                } else {
+                    this.isOpen = false;
+                }
+            },
+            parseParams() {
+                // Get the hash portion of the URL
+                const hash = window.location.hash;
+                // Use URLSearchParams to extract parameters from the hash
+                const params = new URLSearchParams(hash.split('?')[1]);
+                // Get individual parameters
+                this.source = params.get('source') || '';
+            },
+            closeModal() {
+                // Close the modal and remove the hash
+                this.isOpen = false;
+                history.pushState("", document.title, window.location.pathname + window.location.search);
+            }
+        };
+    }
+</script>

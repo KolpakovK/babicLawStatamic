@@ -48,7 +48,10 @@
             </div>
 
             <contact-form :darkTheme="{{false}}" class="col-span-4 lg:col-span-3 lg:col-start-6">
-                <template>{{ csrf_field }}</template>
+                <template>
+                    {{ csrf_field }}
+                    <input type="text"value="Contact us form" class="hidden" name="source"/>
+                </template>
             </contact-form>
         </div>
 
