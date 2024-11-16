@@ -3,9 +3,6 @@ name: Admin
 id: c6c54749-2055-49a6-898f-4d67a70cc8b2
 password_hash: $2y$12$PkTc59SswUyX4oDlUk77UesnR7zuqHdcxAsYRP5yPWHhVdHw/Dkwa
 preferences:
-  assets:
-    assets:
-      mode: grid
   collections:
     en_pages:
       after_save: continue_editing

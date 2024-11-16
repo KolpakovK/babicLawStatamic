@@ -2,12 +2,12 @@
 id: 74fddbd7-f219-4b26-9c07-c7ca41eee4c2
 blueprint: en_send_an_inquiry
 title: 'Send an Inquiry'
-hero_image: trgbanazagreb.jpg
+hero_image: nastuh-abootalebi-ehd8y1znfpk-unsplash.jpg
 alt_seo_noindex: false
 alt_seo_nofollow: false
 exclude_from_sitemap: false
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1731785448
+updated_at: 1731789679
 hero_headline: 'Send an Inquiry'
 hero_description:
   -
@@ -19,7 +19,7 @@ hero_description:
 hero_advantages:
   -
     id: m3kib856
-    icon: ri-currency-line
+    icon: ri-global-line
     headline: 'Online legal advice, opinions, documents and meetings'
     type: advantage
     enabled: true
@@ -31,13 +31,13 @@ hero_advantages:
     enabled: true
   -
     id: m3kibyx5
-    icon: ri-currency-line
+    icon: ri-speak-line
     headline: 'Conducting disputes with prior consultation'
     type: advantage
     enabled: true
   -
     id: m3kibxyp
-    icon: ri-currency-line
+    icon: ri-time-line
     headline: 'Responses to inquiries within 24 hours'
     type: advantage
     enabled: true
@@ -128,7 +128,7 @@ why_subscribe_cards:
     enabled: true
   -
     id: m3kitv16
-    icon: ri-currency-line
+    icon: ri-customer-service-line
     headline: 'Constant support'
     description:
       -
@@ -141,7 +141,7 @@ why_subscribe_cards:
     enabled: true
   -
     id: m3kitu3u
-    icon: ri-currency-line
+    icon: ri-token-swap-line
     headline: 'Lower overall costs'
     description:
       -

@@ -10,11 +10,11 @@ hero_description:
       -
         type: text
         text: 'Riješite svoj pravni problem sada'
-hero_image: trgbanazagreb.jpg
+hero_image: nastuh-abootalebi-ehd8y1znfpk-unsplash.jpg
 hero_advantages:
   -
     id: m3kkczub
-    icon: ri-currency-line
+    icon: ri-global-line
     headline: 'Online pravni savjeti, mišljenja, dokumenti i sastanci'
     type: advantage
     enabled: true
@@ -26,13 +26,13 @@ hero_advantages:
     enabled: true
   -
     id: m3kkdfwa
-    icon: ri-currency-line
+    icon: ri-speak-line
     headline: 'Vođenje sporova uz prethodno savjetovanje'
     type: advantage
     enabled: true
   -
     id: m3kkdh4a
-    icon: ri-currency-line
+    icon: ri-time-line
     headline: 'Odgovori na upite unutar 24 sata'
     type: advantage
     enabled: true
@@ -123,7 +123,7 @@ why_subscribe_cards:
     enabled: true
   -
     id: m3kkh6iz
-    icon: ri-currency-line
+    icon: ri-customer-service-line
     headline: 'Stalna podrška'
     description:
       -
@@ -136,7 +136,7 @@ why_subscribe_cards:
     enabled: true
   -
     id: m3kkh5pf
-    icon: ri-currency-line
+    icon: ri-token-swap-line
     headline: 'Niži ukupni troškovi'
     description:
       -
@@ -152,5 +152,5 @@ alt_seo_noindex: false
 alt_seo_nofollow: false
 exclude_from_sitemap: false
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1731785692
+updated_at: 1731789675
 ---

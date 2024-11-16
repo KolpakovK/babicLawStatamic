@@ -5,7 +5,7 @@ title: 'Home page'
 author: c6c54749-2055-49a6-898f-4d67a70cc8b2
 template: pages/home-page
 updated_by: c6c54749-2055-49a6-898f-4d67a70cc8b2
-updated_at: 1731708960
+updated_at: 1731793622
 hero_image: trgbanazagreb.jpg
 hero_headline: 'Your Trusted Legal Partner'
 hero_description:
@@ -118,7 +118,7 @@ services_cards:
             text: 'Statutory changes in companies, corporate matters, mergers and acquisitions, risk control, legal due diligence, joint ventures, liquidation, representation of companies, contract law, regulatory issues, collection of claims'
     type: card
     enabled: true
-    image: trgbanazagreb.jpg
+    image: corporate_law_statutory_changes_in_companies_corporate_matters_mergers_and_acquisitions_risk_contro_imtmlurqupmr56jvpoyk_3-min.png
   -
     id: lwv03brv
     icon: ri-bank-line
@@ -132,7 +132,7 @@ services_cards:
             text: 'General advising on financial products, asset finance, project finance, factoring, collaterals'
     type: card
     enabled: true
-    image: trgbanazagreb.jpg
+    image: banking_and_finance_law_abstract_photo_txs2f2q4gzrxq3blx9mk_2-min.png
   -
     id: m13nolpr
     icon: ri-building-2-line
@@ -146,7 +146,7 @@ services_cards:
             text: 'Court proceedings (litigation and non-contentious proceedings), arbitration, mediation (conciliation), enforcement proceedings'
     type: card
     enabled: true
-    image: trgbanazagreb.jpg
+    image: disputes_court_proceedings_litigation_and_non-contentious_proceedings_arbitration_mediation_concili_kgmlvgrkje087ego9dp6_1-min.png
   -
     id: lwv03a5v
     icon: ri-folder-settings-line
@@ -160,7 +160,7 @@ services_cards:
             text: 'Creditors/debtors, legal co-operation with companies in bankruptcy, restructuring of debtors'
     type: card
     enabled: true
-    image: trgbanazagreb.jpg
+    image: insolvency_proceedings_creditorsdebtors_legal_co-operation_with_companies_in_bankruptcy_restructuri_3lptb06lt2z9ptzd9k5q_2-min.png
   -
     id: lwv036wj
     icon: ri-hand-heart-line
@@ -174,7 +174,7 @@ services_cards:
             text: 'Advising clients on their rights in marriage and divorce, representing them in court, and drafting necessary legal documents.'
     type: card
     enabled: true
-    image: trgbanazagreb.jpg
+    image: family_law_advising_clients_on_their_rights_in_marriage_and_divorce_representing_them_in_court_and__xj1wszwkupdwtiil8t12_1-min.png
   -
     id: lwv039dn
     icon: ri-compasses-2-line
@@ -188,7 +188,7 @@ services_cards:
             text: 'Labour disputes, Employment and Managerial contracts, Work Regulation for companies, statutory documents, work permits'
     type: card
     enabled: true
-    image: trgbanazagreb.jpg
+    image: working_law_constructions_abstract_photo_a9xkdg45y9hbkpmggyad_0-min.png
   -
     id: lwv037sz
     icon: ri-home-heart-line
@@ -202,7 +202,7 @@ services_cards:
             text: "Real estate status in land registry books,\_acquisition and sale of real estate, lease/rent agreements"
     type: card
     enabled: true
-    image: trgbanazagreb.jpg
+    image: modern_house_and_curt_law_abstract_photo_4vohbqxt4ue0wwb9cs4u_2-min.png
   -
     id: lwv038ir
     icon: ri-lightbulb-flash-line
@@ -216,7 +216,7 @@ services_cards:
             text: 'Advising companies in renewable energy projects (small and medium)'
     type: card
     enabled: true
-    image: trgbanazagreb.jpg
+    image: solar_panels_abstract_photo_yolv1nt2c301ktte64nk_1-min.png
   -
     id: m141f09y
     icon: ri-basketball-line
@@ -230,7 +230,7 @@ services_cards:
             text: 'Agreements, legal advising.'
     type: card
     enabled: true
-    image: trgbanazagreb.jpg
+    image: sports__agreements_legal_advising_abstract_photo_lten1r0y7l3ck2vg63ms_0-min.png
   -
     id: lwv03axg
     icon: ri-home-8-line
@@ -244,7 +244,7 @@ services_cards:
             text: 'Implementation of GDPR 2016/679 (2018)'
     type: card
     enabled: true
-    image: trgbanazagreb.jpg
+    image: data_protection_law_abstract_photo_i7iv3ofx22msyj6gi5wf_3-min.png
 full_width_image: josipa-humski-spz7iayk6uo-unsplash.jpg
 testimonials_tag: 'What our clients say about us'
 testimonials_headline: 'Clients’ testimonials'
