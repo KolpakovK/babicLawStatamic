@@ -19,9 +19,10 @@
             <div class="flex items-center gap-2">
                 <a v-for="tab in actions" :href="tab.url" class="btn btn-primary">{{ tab.name }}</a>
             </div>
+
+            <button class="btn btn-icon btn-light lg:hidden" @click="isMobileOpened=true"><i class="ri-menu-3-line"></i></button>
         </div>
 
-        <button class="btn btn-icon btn-light lg:hidden" @click="isMobileOpened=true"><i class="ri-menu-3-line"></i></button>
     </div>
     <div v-if="isMobileOpened" class="container flex flex-col gap-8 pt-2 pb-16 h-screen">
         <div class="flex justify-between items-center">
